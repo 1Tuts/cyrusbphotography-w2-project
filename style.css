@@ -40,13 +40,13 @@ div.back-slide > div {
 aside.menu-wrapper{
 	position: fixed;
 	outline : 1px dashed red;
+	background: url('images/menu_back.png') repeat-y;
+
 }
 
 header {
-	width   : 200px;
+	width   : 220px;
 	padding : 0 10px 25px 10px;
-	background: url('images/menu_back.png') repeat;
-	background-color: #111;
 }
 
 header hgroup {
@@ -63,12 +63,13 @@ header nav {
 }
 
 header nav menu{
-	
+	margin-left: 20px;
 }
 
 header nav menu li {
 	border-top : 1px solid #343434;
-	padding    : 0 10px;
+	display: block;
+	padding    : 0 20px;
 }
 
 header nav menu li:last-child {
@@ -92,7 +93,7 @@ header nav menu li a span {
 }
 
 #hide-menu {
-	width  : 200px;
+	width  : 220px;
 	height : 115px;
 	background-image : url('images/hide_menu_back.png');
 }
