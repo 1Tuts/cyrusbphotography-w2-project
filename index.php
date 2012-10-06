@@ -9,7 +9,7 @@
 	<title></title>
 </head>
 <body>
-	<!-- <div class="back-slide">
+	<div class="back-slide">
 		<?php
 
 			$images_path = './images/back-slide';
@@ -27,23 +27,26 @@
 
 
 		?>
-	</div> -->
+	</div>
 	<div class="container">
-		<header>
-			<hgroup>
-				<h1></h1>
-				<h1></h1>	
-			</hgroup>
-			<nav>
-				<menu>
-					<li><a href="#">home</a></li>
-					<li><a href="#">About me</a></li>
-					<li><a href="#">portfolio</a></li>
-					<li><a href="#">cooprate</a></li>
-					<li><a href="#">contact me</a></li>
-				</menu>
-			</nav>
-		</header>
+		<aside class="menu-wrapper">
+			<header>
+				<hgroup>
+					<h1></h1>
+					<h1></h1>	
+				</hgroup>
+				<nav>
+					<menu>
+						<li><a href="#">home<br /> <span>back to home</span></a></li>
+						<li><a href="#">About me<br /> <span>who am i ?</span></a></li>
+						<li><a href="#">portfolio<br /> <span>my works</span></a></li>
+						<li><a href="#">cooprate<br /> <span>works with forends</span></a></li>
+						<li><a href="#">contact me<br /> <span>ways to find me</span></a></li>
+					</menu>
+				</nav>
+			</header>
+			<div id="hide-menu"></div>
+		</aside>
 	</div>
 </body>
 </html>
