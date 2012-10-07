@@ -40,13 +40,12 @@ div.back-slide > div {
 aside.menu-wrapper{
 	position: fixed;
 	outline : 1px dashed red;
-	background: url('images/menu_back.png') repeat-y;
-
 }
 
 header {
 	width   : 220px;
 	padding : 0 10px 25px 10px;
+	background: url('images/menu_back.png') repeat-y;
 }
 
 header hgroup {
@@ -64,12 +63,17 @@ header nav {
 
 header nav menu{
 	margin-left: 20px;
+	width: 200px;
+	margin: 0 auto;
 }
 
 header nav menu li {
-	border-top : 1px solid #343434;
-	display: block;
-	padding    : 0 20px;
+	border-top    : 1px solid #343434;
+	padding-right : 6px;
+	padding-left  : 6px;
+	width: 179px;
+	min-height: 30px;
+	margin: 0 auto;	
 }
 
 header nav menu li:last-child {
@@ -78,7 +82,7 @@ header nav menu li:last-child {
 
 header nav menu li a {
 	display         : block;
-	padding         : 6px 0px 10px 0px;
+	padding         : 6px 15px 10px 0px;
 	color           : #a3a3a3;
 	text-decoration : none;
 	font-family     : "Helvetica Neue", Verdana, Helvetica, sans-serif;
@@ -93,9 +97,10 @@ header nav menu li a span {
 }
 
 #hide-menu {
-	width  : 220px;
-	height : 115px;
-	background-image : url('images/hide_menu_back.png');
+	width           : 240px;
+	height          : 130px;
+	background-image: url('images/hide_menu_back.png');
+	margin          : 0 auto;
 }
 
 
