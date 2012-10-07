@@ -1,0 +1,115 @@
+.clear {
+	clear      : both;
+	width      : 0 !important;
+	height     : 0 !important;
+	min-height : 0 !important;
+	min-width  : 0 !important;
+	margin     : 0 !important;
+	padding    : 0 !important;
+	float      : none !important;
+	border     : 0 none !important;
+	overflow   : hidden;	
+}
+
+div.back-slide {
+	position : fixed;
+	top      : 0;
+	right    : 0;
+	left     : 0;
+	bottom   : 0;
+}
+
+div.back-slide > div {
+	position : fixed;
+	top      : 0;
+	left     : 0;
+	right    : 0;
+	bottom   : 0;
+	z-index  : -2;
+	background-position : center center;
+	background-repeat   : no-repeat;
+	background-size     : cover;
+}
+
+.container {
+	width : 980px;
+	margin: 0 auto;
+	min-height: 500px;
+}
+
+aside.menu-wrapper {
+	position: fixed;
+	outline : 1px dashed red;
+	top:0px;
+}
+
+header {
+	width      : 220px;
+	padding    : 0 10px 25px 10px;
+	background : url('images/menu_back.png') repeat-y;
+}
+
+header hgroup {
+	width : 200px
+}
+
+header hgroup h1 {
+	text-indent : -9999;
+	min-height  : 105px;
+}
+
+header nav {
+
+}
+
+header nav menu{
+	margin-left : 20px;
+	width       : 200px;
+	margin      : 0 auto;
+}
+
+header nav menu li {
+	width         : 179px;
+	margin        : 0 auto;	
+	min-height    : 30px;
+	border-top    : 1px solid #343434;
+	padding-right : 6px;
+	padding-left  : 6px;
+}
+
+header nav menu li:last-child {
+	border-bottom : 1px solid #343434;
+}
+
+header nav menu li a {
+	display         : block;
+	padding         : 6px 25px 10px 5px;
+	color           : #a3a3a3;
+	text-decoration : none;
+	font-family     : "Helvetica Neue", Verdana, Helvetica, sans-serif;
+	text-transform  : uppercase;
+	line-height     : 20px;
+}
+
+header nav menu li a span {
+	font-size  : 10px;
+	color      : #555;
+	font-style : italic;
+}
+
+#hide-menu {
+	width            : 240px;
+	height           : 130px;
+	margin           : 0 auto;
+	background-image : url('images/hide_menu_back.png');
+}
+
+#hide-menu a.click-hide {
+	display    : block;
+	margin-top : 20px;
+	width      : 48px;
+	height     : 45px;
+	margin     : 0 auto;
+}
+
+
