@@ -37,15 +37,15 @@ div.back-slide > div {
 	min-height: 500px;
 }
 
-aside.menu-wrapper{
+aside.menu-wrapper {
 	position: fixed;
 	outline : 1px dashed red;
 }
 
 header {
-	width   : 220px;
-	padding : 0 10px 25px 10px;
-	background: url('images/menu_back.png') repeat-y;
+	width      : 220px;
+	padding    : 0 10px 25px 10px;
+	background : url('images/menu_back.png') repeat-y;
 }
 
 header hgroup {
@@ -62,18 +62,18 @@ header nav {
 }
 
 header nav menu{
-	margin-left: 20px;
-	width: 200px;
-	margin: 0 auto;
+	margin-left : 20px;
+	width       : 200px;
+	margin      : 0 auto;
 }
 
 header nav menu li {
+	width         : 179px;
+	margin        : 0 auto;	
+	min-height    : 30px;
 	border-top    : 1px solid #343434;
 	padding-right : 6px;
 	padding-left  : 6px;
-	width: 179px;
-	min-height: 30px;
-	margin: 0 auto;	
 }
 
 header nav menu li:last-child {
@@ -82,7 +82,7 @@ header nav menu li:last-child {
 
 header nav menu li a {
 	display         : block;
-	padding         : 6px 15px 10px 0px;
+	padding         : 6px 25px 10px 5px;
 	color           : #a3a3a3;
 	text-decoration : none;
 	font-family     : "Helvetica Neue", Verdana, Helvetica, sans-serif;
@@ -91,18 +91,24 @@ header nav menu li a {
 }
 
 header nav menu li a span {
-	font-size  : 12px;
+	font-size  : 10px;
 	color      : #555;
 	font-style : italic;
 }
 
 #hide-menu {
-	width           : 240px;
-	height          : 130px;
-	background-image: url('images/hide_menu_back.png');
-	margin          : 0 auto;
+	width            : 240px;
+	height           : 130px;
+	margin           : 0 auto;
+	background-image : url('images/hide_menu_back.png');
 }
 
-
+#hide-menu a.click-hide {
+	display    : block;
+	margin-top : 20px;
+	width      : 48px;
+	height     : 45px;
+	margin     : 0 auto;
+}
 
 

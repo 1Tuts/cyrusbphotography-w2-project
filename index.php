@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="style.css" />
 	<script type="text/javascript" src="zepto.min.js"></script>
 	<script type="text/javascript" src="back-slide.js"></script>
+	<script type="text/javascript" src="scripts.js"></script>
 	<title></title>
 </head>
 <body>
@@ -45,7 +46,11 @@
 					</menu>
 				</nav>
 			</header>
-			<div id="hide-menu"></div>
+			<div id="hide-menu">
+				<a href="#" class="click-hide">
+					<img src="images/menu_hide_arrow_bottom.png" alt="click-hide" />
+				</a>
+			</div>
 		</aside>
 	</div>
 </body>
