@@ -4,37 +4,35 @@ $(function(){
 		menuWrapper = $('aside.menu-wrapper'),
 		clickImg    = $('#hide-menu a.click-hide img');
 
-	
+	clickHide.click(function(){
 
-		clickHide.click(function(){
+		if(menuWrapper.css('top')==0+'px'){
 
-			if(menuWrapper.css('top')==0+'px'){
+			menuWrapper.animate({
+				
+					top:-520
+				
+			},600,null,function(){
 
-				menuWrapper.animate({
-					
-						top:-520
-					
-				},600,'ease-out',function(){
+				clickImg.animate({
 
-					clickImg.animate({
+					rotate : -180+'deg'
 
-						rotate : -180+'deg'
+				},250);
+			});
+		}else{
+			menuWrapper.animate({
+				
+					top:0
+				
+			},600,null,function(){
 
-					},250);
-				});
-			}else{
-				menuWrapper.animate({
-					
-						top:0
-					
-				},600,'ease-out',function(){
+				clickImg.animate({
 
-					clickImg.animate({
+					rotate : 0
 
-						rotate : 0
-
-					},250);
-				});
-			}
-		});
+				},250);
+			});
+		}
+	});
 })
