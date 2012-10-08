@@ -54,7 +54,7 @@ header hgroup {
 }
 
 header hgroup h1 {
-	text-indent : -9999;
+	text-indent : -9999px;
 	min-height  : 105px;
 }
 
