@@ -30,7 +30,7 @@
 		?>
 	</div>
 	<div class="container">
-		<aside class="menu-wrapper">
+		<aside class="sidebar">
 			<header>
 				<hgroup>
 					<h1></h1>
@@ -41,17 +41,20 @@
 						<li><a href="#">home<br /> <span>back to home</span></a></li>
 						<li><a href="#">About me<br /> <span>who am i ?</span></a></li>
 						<li><a href="#">portfolio<br /> <span>my works</span></a></li>
-						<li><a href="#">cooprate<br /> <span>works with forends</span></a></li>
+						<li><a href="#">cooprate<br /> <span>works with frinds</span></a></li>
 						<li><a href="#">contact me<br /> <span>ways to find me</span></a></li>
 					</menu>
 				</nav>
 			</header>
-			<div id="hide-menu">
+			<div id="hide-sidebar">
 				<a href="#" class="click-hide">
-					<img src="images/menu_hide_arrow_bottom.png" alt="click-hide" />
+					<img src="images/menu_hide_arrow_top.png" alt="click-hide" />
 				</a>
 			</div>
 		</aside>
+		<div class="content">
+			
+		</div>
 	</div>
 </body>
 </html>
