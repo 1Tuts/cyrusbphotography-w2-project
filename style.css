@@ -38,7 +38,7 @@ div.back-slide > div {
 div.container {
 	width : 980px;
 	margin: 0 auto;
-	min-height: 500px;
+	min-height: 550px;
 }
 
 aside.sidebar {
@@ -48,13 +48,15 @@ aside.sidebar {
 }
 
 aside.sidebar header {
-	width      : 220px;
-	padding    : 0 10px 25px 10px;
+	width      : 240px;
+	margin     : 0 auto;
 	background : url('images/menu_back.png') repeat-y;
+	background-position: center;
 }
 
 aside.sidebar header hgroup {
-	width : 200px
+	width : 200px;
+	margin: 0 auto;
 }
 
 aside.sidebar header hgroup h1 {
@@ -67,18 +69,17 @@ aside.sidebar header nav {
 }
 
 aside.sidebar header nav menu{
-	margin-left : 20px;
+	margin-right : 20px;
 	width       : 200px;
 	margin      : 0 auto;
 }
 
 aside.sidebar header nav menu li {
-	width         : 179px;
+	width         : 180px;
 	margin        : 0 auto;	
 	min-height    : 30px;
 	border-top    : 1px solid #343434;
-	padding-right : 6px;
-	padding-left  : 6px;
+	padding-right : 0 6px;
 }
 
 aside.sidebar header nav menu li:last-child {
@@ -87,10 +88,10 @@ aside.sidebar header nav menu li:last-child {
 
 aside.sidebar header nav menu li a {
 	display         : block;
-	padding         : 6px 25px 10px 5px;
+	padding         : 6px 5px 10px 25px;
 	color           : #a3a3a3;
 	text-decoration : none;
-	font-family     : "Helvetica Neue", Verdana, Helvetica, sans-serif;
+	font-family     : tahoma, "Helvetica Neue", Verdana, Helvetica, sans-serif;
 	text-transform  : uppercase;
 	line-height     : 20px;
 }
@@ -101,14 +102,14 @@ aside.sidebar header nav menu li a span {
 	font-style : italic;
 }
 
-#hide-menu {
+#hide-sidebar {
 	width            : 240px;
 	height           : 130px;
 	margin           : 0 auto;
 	background-image : url('images/hide_menu_back.png');
 }
 
-#hide-menu a.click-hide {
+#hide-sidebar a.click-hide {
 	display    : block;
 	margin-top : 20px;
 	width      : 48px;
