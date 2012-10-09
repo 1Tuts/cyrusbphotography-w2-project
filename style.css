@@ -1,3 +1,7 @@
+*{
+	outline: 1px solid red;
+}
+
 .clear {
 	clear      : both;
 	width      : 0 !important;
@@ -31,44 +35,44 @@ div.back-slide > div {
 	background-size     : cover;
 }
 
-.container {
+div.container {
 	width : 980px;
 	margin: 0 auto;
 	min-height: 500px;
 }
 
-aside.menu-wrapper {
+aside.sidebar {
 	position: fixed;
 	outline : 1px dashed red;
 	top:0px;
 }
 
-header {
+aside.sidebar header {
 	width      : 220px;
 	padding    : 0 10px 25px 10px;
 	background : url('images/menu_back.png') repeat-y;
 }
 
-header hgroup {
+aside.sidebar header hgroup {
 	width : 200px
 }
 
-header hgroup h1 {
+aside.sidebar header hgroup h1 {
 	text-indent : -9999px;
 	min-height  : 105px;
 }
 
-header nav {
+aside.sidebar header nav {
 
 }
 
-header nav menu{
+aside.sidebar header nav menu{
 	margin-left : 20px;
 	width       : 200px;
 	margin      : 0 auto;
 }
 
-header nav menu li {
+aside.sidebar header nav menu li {
 	width         : 179px;
 	margin        : 0 auto;	
 	min-height    : 30px;
@@ -77,11 +81,11 @@ header nav menu li {
 	padding-left  : 6px;
 }
 
-header nav menu li:last-child {
+aside.sidebar header nav menu li:last-child {
 	border-bottom : 1px solid #343434;
 }
 
-header nav menu li a {
+aside.sidebar header nav menu li a {
 	display         : block;
 	padding         : 6px 25px 10px 5px;
 	color           : #a3a3a3;
@@ -91,7 +95,7 @@ header nav menu li a {
 	line-height     : 20px;
 }
 
-header nav menu li a span {
+aside.sidebar header nav menu li a span {
 	font-size  : 10px;
 	color      : #555;
 	font-style : italic;
@@ -111,5 +115,7 @@ header nav menu li a span {
 	height     : 45px;
 	margin     : 0 auto;
 }
+
+/********************************** WORKS *****************************************/
 
 
