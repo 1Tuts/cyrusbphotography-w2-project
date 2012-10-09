@@ -1,8 +1,8 @@
 $(function(){
 
-	var clickHide   = $('#hide-menu a.click-hide'),
+	var clickHide   = $('#hide-sidebar a.click-hide'),
 		menuWrapper = $('aside.sidebar'),
-		clickImg    = $('#hide-menu a.click-hide img');
+		clickImg    = $('#hide-sidebar a.click-hide img');
 
 	
 
@@ -12,7 +12,7 @@ $(function(){
 
 				menuWrapper.animate({
 					
-						top:-520
+						top:-500
 					
 				},600,'ease-out',function(){
 
