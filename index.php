@@ -30,7 +30,7 @@
 		?>
 	</div>
 	<div class="container">
-		<aside class="menu-wrapper">
+		<aside class="sidebar">
 			<header>
 				<hgroup>
 					<h1></h1>
