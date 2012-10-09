@@ -1,3 +1,7 @@
+*{
+	outline: 1px solid red;
+}
+
 .clear {
 	clear      : both;
 	width      : 0 !important;
@@ -31,85 +35,88 @@ div.back-slide > div {
 	background-size     : cover;
 }
 
-.container {
+div.container {
 	width : 980px;
 	margin: 0 auto;
-	min-height: 500px;
+	min-height: 550px;
 }
 
-aside.menu-wrapper {
+aside.sidebar {
 	position: fixed;
 	outline : 1px dashed red;
 	top:0px;
 }
 
-header {
-	width      : 220px;
-	padding    : 0 10px 25px 10px;
+aside.sidebar header {
+	width      : 240px;
+	margin     : 0 auto;
 	background : url('images/menu_back.png') repeat-y;
+	background-position: center;
 }
 
-header hgroup {
-	width : 200px
+aside.sidebar header hgroup {
+	width : 200px;
+	margin: 0 auto;
 }
 
-header hgroup h1 {
+aside.sidebar header hgroup h1 {
 	text-indent : -9999px;
 	min-height  : 105px;
 }
 
-header nav {
+aside.sidebar header nav {
 
 }
 
-header nav menu{
-	margin-left : 20px;
+aside.sidebar header nav menu{
+	margin-right : 20px;
 	width       : 200px;
 	margin      : 0 auto;
 }
 
-header nav menu li {
-	width         : 179px;
+aside.sidebar header nav menu li {
+	width         : 180px;
 	margin        : 0 auto;	
 	min-height    : 30px;
 	border-top    : 1px solid #343434;
-	padding-right : 6px;
-	padding-left  : 6px;
+	padding-right : 0 6px;
 }
 
-header nav menu li:last-child {
+aside.sidebar header nav menu li:last-child {
 	border-bottom : 1px solid #343434;
 }
 
-header nav menu li a {
+aside.sidebar header nav menu li a {
 	display         : block;
-	padding         : 6px 25px 10px 5px;
+	padding         : 6px 5px 10px 25px;
 	color           : #a3a3a3;
 	text-decoration : none;
-	font-family     : "Helvetica Neue", Verdana, Helvetica, sans-serif;
+	font-family     : tahoma, "Helvetica Neue", Verdana, Helvetica, sans-serif;
 	text-transform  : uppercase;
 	line-height     : 20px;
 }
 
-header nav menu li a span {
+aside.sidebar header nav menu li a span {
 	font-size  : 10px;
 	color      : #555;
 	font-style : italic;
 }
 
-#hide-menu {
+#hide-sidebar {
 	width            : 240px;
 	height           : 130px;
 	margin           : 0 auto;
 	background-image : url('images/hide_menu_back.png');
 }
 
-#hide-menu a.click-hide {
+#hide-sidebar a.click-hide {
 	display    : block;
 	margin-top : 20px;
 	width      : 48px;
 	height     : 45px;
 	margin     : 0 auto;
 }
+
+/********************************** WORKS *****************************************/
 
 
