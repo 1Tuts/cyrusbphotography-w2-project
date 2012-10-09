@@ -46,9 +46,9 @@
 					</menu>
 				</nav>
 			</header>
-			<div id="hide-menu">
+			<div id="hide-sidebar">
 				<a href="#" class="click-hide">
-					<img src="images/menu_hide_arrow_bottom.png" alt="click-hide" />
+					<img src="images/menu_hide_arrow_top.png" alt="click-hide" />
 				</a>
 			</div>
 		</aside>
