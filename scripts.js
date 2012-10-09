@@ -1,7 +1,7 @@
 $(function(){
 
 	var clickHide   = $('#hide-menu a.click-hide'),
-		menuWrapper = $('aside.menu-wrapper'),
+		menuWrapper = $('aside.sidebar'),
 		clickImg    = $('#hide-menu a.click-hide img');
 
 	
