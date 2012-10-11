@@ -139,3 +139,37 @@ div.content div.gallery{
 	min-height: 2500px;
 }
 
+div.content div.gallery ul li{
+	float: right;
+	width: 320px;
+	height: 300px;
+	margin: 0 20px 40px 0; 
+	padding: 30px 0 15px 0;
+}
+
+div.content div.gallery ul li h3{
+	margin-bottom: 20px;
+}
+
+div.content div.gallery ul li h3 a{
+	font-family: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color: white;
+	text-decoration: none;
+}
+
+div.content div.gallery ul li div.image-holder{
+	background-image: url('images/works/back-sample.png');
+}
+
+div.content div.gallery ul li div.image-holder a.gallery-image{
+	cursor: auto;
+	width: 320px;
+	height: 220px;
+	opacity: 1;
+}
+
+div.content div.gallery ul li div:hover a.gallery-image{
+	opacity: 0.7;
+}
