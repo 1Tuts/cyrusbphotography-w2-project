@@ -168,8 +168,16 @@ div.content div.gallery ul li div.image-holder a.gallery-image{
 	width: 320px;
 	height: 220px;
 	opacity: 1;
+	-webkit-transition: all 1s;
+	-ms-transition: all 1s;
+	-o-transition: all 1s;
+	-moz-transition: all 1s;
 }
 
-div.content div.gallery ul li div:hover a.gallery-image{
+div.content div.gallery ul li div.image-holder:hover a.gallery-image{
 	opacity: 0.7;
+	-webkit-transition: all 1s;
+	-ms-transition: all 1s;
+	-o-transition: all 1s;
+	-moz-transition: all 1s;
 }
