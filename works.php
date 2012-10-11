@@ -35,6 +35,7 @@
 		</aside>
 		<div class="content">
 			<h1 class="title">نمونه کارها</h1>
+			<div class="gallery"></div>
 		</div>
 	</div>
 </body>
