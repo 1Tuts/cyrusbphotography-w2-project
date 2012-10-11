@@ -14,7 +14,7 @@ $(function(){
 					
 						top:-500
 					
-				},600,'ease-out',function(){
+				},600,null,function(){
 
 					clickImg.animate({
 
@@ -27,7 +27,7 @@ $(function(){
 					
 						top:0
 					
-				},600,'ease-out',function(){
+				},600,null,function(){
 
 					clickImg.animate({
 
