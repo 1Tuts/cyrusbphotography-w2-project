@@ -113,10 +113,24 @@ aside.sidebar header nav menu li a span {
 	display    : block;
 	margin-top : 20px;
 	width      : 48px;
-	height     : 45px;
+	height     : 48px;
 	margin     : 0 auto;
 }
 
+div.content {
+	margin-right: 240px;
+	padding: 10px;
+	min-height: 2500px;
+	background-image: url('images/content_back.png');
+	background-repeat: repeat-y;
+}
 /********************************** WORKS *****************************************/
-
+div.content h1.title {
+	font-family: Tahoma;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 19px 0 40px 0;
+	color: white; 
+}
 
