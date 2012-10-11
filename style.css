@@ -36,7 +36,7 @@ div.back-slide > div {
 }
 
 div.container {
-	width : 980px;
+	width : 1000px;
 	margin: 0 auto;
 	min-height: 550px;
 }
@@ -119,10 +119,11 @@ aside.sidebar header nav menu li a span {
 
 div.content {
 	margin-right: 240px;
-	padding: 10px;
+	padding: 5px 40px 5px 40px;
 	min-height: 2500px;
 	background-image: url('images/content_back.png');
 	background-repeat: repeat-y;
+	background-position: center;
 }
 /********************************** WORKS *****************************************/
 div.content h1.title {
@@ -132,5 +133,9 @@ div.content h1.title {
 	text-transform: uppercase;
 	margin: 19px 0 40px 0;
 	color: white; 
+}
+
+div.content div.gallery{
+	min-height: 2500px;
 }
 
