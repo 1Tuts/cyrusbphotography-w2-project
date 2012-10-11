@@ -57,7 +57,7 @@
 
 	/* HTML 5 - adjusting visual formatting model to block level */
 	article, aside, details, figcaption, figure, 
-	footer, header, hgroup, menu, nav, section {
+	footer, header, hgroup, menu, nav, section, h1, h2, h3, a {
 		display: block;
 	}
 
