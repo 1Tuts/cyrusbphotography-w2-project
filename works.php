@@ -46,7 +46,10 @@
 								<img src="images/works/1.png" width="320" height="220"/>
 							</a>
 						</div>
-						
+						<p class="image-description">
+							توضیحاتی درباره تصویر
+						</p>
+						<a class="more">اطلاعات بیشتر</a>
 					</li>
 					<li>
 						<h3>
@@ -57,7 +60,10 @@
 								<img src="images/works/1.png" width="320" height="220"/>
 							</a>
 						</div>
-						
+						<p class="image-description">
+							توضیحاتی درباره تصویر
+						</p>
+						<a class="more">اطلاعات بیشتر</a>
 					</li>
 					<li>
 						<h3>
@@ -68,7 +74,10 @@
 								<img src="images/works/1.png" width="320" height="220"/>
 							</a>
 						</div>
-						
+						<p class="image-description">
+							توضیحاتی درباره تصویر
+						</p>
+						<a class="more">اطلاعات بیشتر</a>
 					</li>
 					<li>
 						<h3>
@@ -79,7 +88,10 @@
 								<img src="images/works/1.png" width="320" height="220"/>
 							</a>
 						</div>
-						
+						<p class="image-description">
+							توضیحاتی درباره تصویر
+						</p>
+						<a class="more">اطلاعات بیشتر</a>
 					</li>
 				</ul>
 			</div>
