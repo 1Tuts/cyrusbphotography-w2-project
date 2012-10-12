@@ -181,3 +181,17 @@ div.content div.gallery ul li div.image-holder:hover a.gallery-image{
 	-o-transition: all 1s;
 	-moz-transition: all 1s;
 }
+
+div.content div.gallery ul li a.more{
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #2C2C2C;
+	background: #111;
+	text-align: center;
+	font-size: 10px;
+	padding: 3px 3px;
+	width: 80px;
+	color: #fff;
+	text-decoration: none;
+}
