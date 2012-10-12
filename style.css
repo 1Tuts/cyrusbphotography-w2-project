@@ -1,3 +1,7 @@
+*{
+	/*outline: 1px solid red;*/
+}
+
 .clear {
 	clear      : both;
 	width      : 0 !important;
@@ -31,83 +35,182 @@ div.back-slide > div {
 	background-size     : cover;
 }
 
-.container {
-	width : 980px;
+div.container {
+	width : 1000px;
 	margin: 0 auto;
+	min-height: 550px;
 }
 
-aside.menu-wrapper {
-	position : fixed;
-	outline  : 1px dashed red;
-	top      : 0px;
+aside.sidebar {
+	position: fixed;
+	top:0px;
 }
 
-header {
-	width      : 220px;
-	padding    : 0 10px 25px 10px;
+aside.sidebar header {
+	width      : 240px;
+	margin     : 0 auto;
 	background : url('images/menu_back.png') repeat-y;
+	background-position: center;
 }
 
-header hgroup {
+aside.sidebar header hgroup {
 	width : 200px;
 	margin: 0 auto;
 }
 
-header hgroup h1 {
-	text-indent : -9999;
-	min-height  : 105px;
+aside.sidebar header hgroup h1.logo {
+	height  : 124px;
+	text-align: center;
 }
 
-header nav {
+aside.sidebar header hgroup h1.logo img {
+}
+
+aside.sidebar header hgroup h1.slogan{
+	min-height: 80px;
+}
+
+aside.sidebar header nav {
 
 }
 
-header nav menu{
-	margin-left : 20px;
+aside.sidebar header nav menu{
+	margin-right : 20px;
 	width       : 200px;
 	margin      : 0 auto;
 }
 
-header nav menu li {
-	width         : 179px;
+aside.sidebar header nav menu li {
+	width         : 180px;
 	margin        : 0 auto;	
 	min-height    : 30px;
 	border-top    : 1px solid #343434;
-	padding-right : 6px;
-	padding-left  : 6px;
+	padding-right : 0 6px;
 }
 
-header nav menu li:last-child {
+aside.sidebar header nav menu li:last-child {
 	border-bottom : 1px solid #343434;
 }
 
-header nav menu li a {
+aside.sidebar header nav menu li a {
 	display         : block;
-	padding         : 6px 25px 10px 5px;
+	padding         : 6px 5px 10px 25px;
 	color           : #a3a3a3;
 	text-decoration : none;
-	font-family     : "Helvetica Neue", Verdana, Helvetica, sans-serif;
+	font-family     : tahoma, "Helvetica Neue", Verdana, Helvetica, sans-serif;
 	text-transform  : uppercase;
 	line-height     : 20px;
 }
 
-header nav menu li a span {
+aside.sidebar header nav menu li a span {
 	font-size  : 10px;
 	color      : #555;
 	font-style : italic;
 }
 
-#hide-menu {
+#hide-sidebar {
 	width            : 240px;
 	height           : 130px;
 	margin           : 0 auto;
 	background-image : url('images/hide_menu_back.png');
 }
 
-#hide-menu a.click-hide {
+#hide-sidebar a.click-hide {
 	display    : block;
 	margin-top : 20px;
 	width      : 48px;
 	height     : 48px;
 	margin     : 0 auto;
+}
+
+div.content {
+	margin-right: 240px;
+	padding: 5px 40px 5px 40px;
+	min-height: 2500px;
+	background-image: url('images/content_back.png');
+	background-repeat: repeat-y;
+	background-position: center;
+}
+/********************************** WORKS *****************************************/
+div.content h1.title {
+	font-family: Tahoma;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 19px 0 40px 0;
+	color: white; 
+}
+
+div.content div.gallery{
+	min-height: 2500px;
+}
+
+div.content div.gallery ul li{
+	float: right;
+	width: 320px;
+	min-height: 300px;
+	margin: 0 20px 40px 0; 
+	padding: 30px 0 15px 0;
+}
+
+div.content div.gallery ul li h3{
+	margin-bottom: 20px;
+}
+
+div.content div.gallery ul li h3 a{
+	font-family: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color: white;
+	text-decoration: none;
+}
+
+div.content div.gallery ul li div.image-holder{
+	background-image: url('images/works/back-sample.png');
+}
+
+div.content div.gallery ul li div.image-holder a.gallery-image{
+	cursor: auto;
+	width: 320px;
+	height: 220px;
+	opacity: 1;
+	-webkit-transition: all 1s;
+	-ms-transition: all 1s;
+	-o-transition: all 1s;
+	-moz-transition: all 1s;
+}
+
+div.content div.gallery ul li div.image-holder:hover a.gallery-image{
+	opacity: 0.7;
+	-webkit-transition: all 1s;
+	-ms-transition: all 1s;
+	-o-transition: all 1s;
+	-moz-transition: all 1s;
+}
+
+div.content div.gallery ul li p.image-description{
+	color: #fff;
+	font-family: inherit;
+	font-size: 10px;
+	line-height: 1.2;
+	margin: 10px 0;
+}
+
+div.content div.gallery ul li a.more{
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #2C2C2C;
+	background-color: #111;
+	text-align: center;
+	font-size: 11px;
+	padding: 5px 3px;
+	width: 80px;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+div.content div.gallery ul li a.more:hover{
+	background-color: #2C2C2C;
 }
