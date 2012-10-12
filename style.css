@@ -214,3 +214,10 @@ div.content div.gallery ul li a.more{
 div.content div.gallery ul li a.more:hover{
 	background-color: #2C2C2C;
 }
+
+/*********************** CONTACT PAGE ****************************/
+
+div.content div.contact-info {
+	background-image: url('images/Contact-Us.jpg');
+	float: left;
+}
