@@ -50,9 +50,6 @@
 				</a>
 			</div>
 		</aside>
-		<div class="content">
-			
-		</div>
 	</div>
 </body>
 </html>
