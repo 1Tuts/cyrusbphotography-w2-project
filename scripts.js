@@ -6,6 +6,10 @@ $(function(){
 
 	
 
+	
+
+	
+
 		clickHide.click(function(){
 
 			if(menuWrapper.css('top')==0+'px'){
