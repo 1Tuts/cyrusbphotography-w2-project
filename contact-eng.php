@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en-US">
+<html lang="fa-IR">
 <head>
 	<meta charset="UTF-8" />
 	<link rel="stylesheet" href="reset.css" />
@@ -51,11 +51,22 @@
 			</div>
 		</aside>
 		<div class="content">
-			<h1>Contact me</h1>
-			<div class="contact-info"></div>
-			<form action="mail.php" class="contact" method="post">
-				
+			<h1 class="title">فرم تماس با من</h1>
+			<form action="mail.php" id="contact" method="post">
+				<input type="text" class="text" name="name" id="name" placeholder="نام" />
+				<input type="text" class="text" name="email" id="email" placeholder="ایمیل" />
+				<textarea name="message" id="message" cols="40" rows="10" placeholder="پیام"></textarea>
+				<input type="submit" value="ارسال" class="button" id="submit" name="submit" />
 			</form>
+			<div class="contact-info">
+				<h3>راه های ارتباطی با من</h3>
+				<ul>
+					<li class="tell">۰۹۱۵۴۴۶۲۳۲۳</li>
+					<li class="mail">info@cyrusb-photo</li>
+					<li class="address">مشهد، سجاد</li>
+					<li class="google-map"></li>
+				</ul>
+			</div>
 		</div>
 	</div>
 </body>
