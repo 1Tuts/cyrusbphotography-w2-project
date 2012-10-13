@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en-US">
+<html lang="fa-IR">
 <head>
 	<meta charset="UTF-8" />
 	<link rel="stylesheet" href="reset.css" />
@@ -7,7 +7,7 @@
 	<script type="text/javascript" src="zepto.min.js"></script>
 	<script type="text/javascript" src="back-slide.js"></script>
 	<script type="text/javascript" src="scripts.js"></script>
-	<title></title>
+	<title>Contact me!</title>
 </head>
 <body>
 	<div class="back-slide">
@@ -50,6 +50,24 @@
 				</a>
 			</div>
 		</aside>
+		<div class="content">
+			<h1 class="title">فرم تماس با من</h1>
+			<form action="mail.php" id="contact" method="post">
+				<input type="text" class="text" name="name" id="name" placeholder="نام" />
+				<input type="text" class="text" name="email" id="email" placeholder="ایمیل" />
+				<textarea name="message" id="message" cols="40" rows="10" placeholder="پیام"></textarea>
+				<input type="submit" value="ارسال" class="button" id="submit" name="submit" />
+			</form>
+			<div class="contact-info">
+				<h3>راه های ارتباطی با من</h3>
+				<ul>
+					<li class="tell">۰۹۱۵۴۴۶۲۳۲۳</li>
+					<li class="mail">info@cyrusb-photo</li>
+					<li class="address">مشهد، سجاد</li>
+					<li class="google-map"></li>
+				</ul>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
