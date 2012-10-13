@@ -259,6 +259,17 @@ div.content form#contact input,div.content form#contact textarea {
 	margin-bottom        : 15px;
 	font-weight          : bold;
 	color: #ddd;
+
+}
+
+div.content form#contact input:focus::-webkit-input-placeholder{
+	color : transparent;
+	-webkit-transition: all 400ms;
+}
+ 
+div.content form#contact textarea:focus::-webkit-input-placeholder{
+	color : transparent;
+	-webkit-transition: all 300ms;
 }
 
 div.content div.contact-info {
