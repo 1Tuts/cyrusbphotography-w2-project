@@ -220,13 +220,6 @@ div.content div.gallery ul li a.more:hover{
 
 /*********************** CONTACT PAGE ****************************/
 
-div.content {
-}
-
-div.content * {
-	outline : 0px solid red;
-}
-
 div.content form#contact {
 	float : right;
 	width : 360px;
@@ -237,39 +230,38 @@ div.content form#contact input.text {
 }
 
 div.content form#contact input.button {
-	width: 150px;
-	height: 30px;
-	color: white;
-	text-align: center;	
-	background: -webkit-gradient(linear, left top, left bottom, from(#424242), to(#282828));
+	width      : 150px;
+	height     : 30px;
+	color      : white;
+	text-align : center;	
+	background : -webkit-gradient(linear, left top, left bottom, from(#424242), to(#282828));
 }
 
 div.content form#contact input.button:hover {
-	background: -webkit-gradient(linear, left top, left bottom, from(#282828), to(#424242));
+	background : -webkit-gradient(linear, left top, left bottom, from(#282828), to(#424242));
 
 }
 
 div.content form#contact input,div.content form#contact textarea {
-	display              : block;
-	background-color     : #1b1b1b;
-	border               : 1px solid #333;
-	-webkit-border-radius: 3px;
-	padding              : 5px 5px;
-	font-size            : 12px;
-	margin-bottom        : 15px;
-	font-weight          : bold;
-	color: #ddd;
-
+	display       : block;
+	border        : 1px solid #333;
+	padding       : 5px 5px;
+	font-size     : 12px;
+	margin-bottom : 15px;
+	font-weight   : bold;
+	color         : #ddd;
+	background-color      : #1b1b1b;
+	-webkit-border-radius : 3px;
 }
 
 div.content form#contact input:focus::-webkit-input-placeholder{
 	color : transparent;
-	-webkit-transition: all 400ms;
+	-webkit-transition : all 400ms;
 }
  
 div.content form#contact textarea:focus::-webkit-input-placeholder{
 	color : transparent;
-	-webkit-transition: all 300ms;
+	-webkit-transition : all 300ms;
 }
 
 div.content div.contact-info {
