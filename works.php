@@ -15,7 +15,7 @@
 		<aside class="sidebar">
 			<header>
 				<hgroup>
-					<h1 class="logo"><img src="images/logo.png" width="150" height="124" href="index.php" alt="cyrusb-photography"/></h1>
+					<h1 class="logo"><a href="index.php"><img src="images/logo.png" width="150" height="124" alt="cyrusb-photography" /></a></h1>
 					<h1 class="slogan"></h1>	
 				</hgroup>
 				<nav>
