@@ -1,5 +1,5 @@
 *{
-	/*outline: 1px solid red;*/
+	outline: 1px solid red;
 }
 
 .clear {
@@ -306,4 +306,35 @@ h1.cyrus {
 p.biography {
 	font-size: 15px;
 	color: #eee;
+}
+
+/************************* footer ************************************/
+footer.footer{
+	min-height: 256px;
+	background-image: url("images/1.png");
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+footer.footer div.boxes div.box{
+	float: right;
+	width: 199px;
+	padding: 40px 17px;
+}
+
+footer.footer div.boxes h3{
+	font-family: inherit;
+	font-size: 13px;
+	font-weight: bold;
+	color: white;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #444;
+}
+
+footer.footer div.boxes li{
+	padding: 8px 7px 8px 0;
+	font-family: inherit;
+	font-size: 13px;
+	color: white;
+	border-bottom: 1px solid #444;
 }
