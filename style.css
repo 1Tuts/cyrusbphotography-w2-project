@@ -297,15 +297,21 @@ div.content div.contact-info ul li.address {
 /*************************  BIOGRAPHY  *****************************/
 
 h1.cyrus {
-	font-size: 22px;
+	font-size: 16px;
 	font-weight: bold;
 	color: white;
-	margin-bottom: 35px;
+	margin-bottom: 20px;
 }
 
-p.biography {
-	font-size: 15px;
+section.biography{
+	margin-bottom: 100px;
+}
+
+section.biography p{
+	font-size: 12px;
+	font-family: inherit;
 	color: #eee;
+	margin-bottom: 10px;
 }
 
 /************************* footer ************************************/
