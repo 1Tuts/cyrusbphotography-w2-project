@@ -1,5 +1,5 @@
 *{
-	outline: 1px solid red;
+	/*outline: 1px solid red;*/
 }
 
 .clear {
@@ -310,10 +310,7 @@ p.biography {
 
 /************************* footer ************************************/
 footer.footer{
-	min-height: 256px;
-	background-image: url("images/1.png");
-	background-repeat: no-repeat;
-	background-position: top;
+	border-top border-bottom : 1px solid #555;
 }
 
 footer.footer div.boxes div.box{
@@ -351,6 +348,7 @@ footer.footer div.copyright section.social ul li{
 	width: 16px;
 	height: 16px;
 	float: right;
+	margin-left:12px;
 }
 
 footer.footer div.copyright section.social ul li a{
