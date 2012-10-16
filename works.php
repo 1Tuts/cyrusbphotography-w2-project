@@ -128,11 +128,14 @@
 				<div class="copyright">
 					<section class="social">
 						<ul>
-							<li><a href="#"><img src="images/#"/></a></li>
-							<li><a href="#"><img src="images/#"/></a></li>
-							<li><a href="#"><img src="images/#"/></a></li>
-							<li><a href="#"><img src="images/#"/></a></li>
-							<li><a href="#"><img src="images/#"/></a></li>
+							<li><a href="#"><img src="images/#" width="16" height="16"/></a></li>
+							<li><a href="#"><img src="images/#" width="16" height="16"/></a></li>
+							<li><a href="#"><img src="images/#" width="16" height="16"/></a></li>
+							<li><a href="#"><img src="images/#" width="16" height="16"/></a></li>
+							<li><a href="#"><img src="images/#" width="16" height="16"/></a></li>
+							<li><a href="#"><img src="images/#" width="16" height="16"/></a></li>
+							<li><a href="#"><img src="images/#" width="16" height="16"/></a></li>
+							<li><a href="#"><img src="images/#" width="16" height="16"/></a></li>
 						</ul>
 					</section>
 					<p>copyright 2012 sirous bijanfar</p>
