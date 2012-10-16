@@ -112,7 +112,7 @@
 						<ul>
 							<li><a href="#">آیتم یک</a></li>
 							<li><a href="#">آیتم دو</a></li>
-							<li><a href="#">آیتم سه/a></li>
+							<li><a href="#">آیتم سه</a></li>
 						</ul>
 					</div>
 					<div class="box">
