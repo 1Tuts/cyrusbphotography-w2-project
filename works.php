@@ -97,6 +97,38 @@
 					</li>
 				</ul>
 			</div>
+			<footer class="footer">
+				<div class="boxes">
+					<div class="box">
+						<h3>تیتر آزمایشی</h3>
+						<ul>
+							<li>آیتم یک</li>
+							<li>آیتم دو</li>
+							<li>آیتم سه</li>
+						</ul>
+					</div>
+					<div class="box">
+						<h3>تیتر آزمایشی</h3>
+						<ul>
+							<li>آیتم یک</li>
+							<li>آیتم دو</li>
+							<li>آیتم سه</li>
+						</ul>
+					</div>
+					<div class="box">
+						<h3>تیتر آزمایشی</h3>
+						<ul>
+							<li>آیتم یک</li>
+							<li>آیتم دو</li>
+							<li>آیتم سه</li>
+						</ul>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="copyright">
+					
+				</div>
+			</footer>
 		</div>
 	</div>
 </body>
