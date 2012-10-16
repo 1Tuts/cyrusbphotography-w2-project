@@ -338,3 +338,11 @@ footer.footer div.boxes li{
 	color: white;
 	border-bottom: 1px solid #444;
 }
+
+footer.footer div.copyright{
+	padding: 10px 8px;
+	font-family: inherit;
+	font-size: 11px;
+	color: white;
+	text-transform: capitalize;
+}
