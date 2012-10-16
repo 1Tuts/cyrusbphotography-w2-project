@@ -340,9 +340,29 @@ footer.footer div.boxes li{
 }
 
 footer.footer div.copyright{
-	padding: 10px 8px;
+	padding: 23px 17px;
+}
+
+footer.footer div.copyright section.social{
+	float: right;
+}
+
+footer.footer div.copyright section.social ul li{
+	width: 16px;
+	height: 16px;
+	float: right;
+}
+
+footer.footer div.copyright section.social ul li a{
+	width: 16px;
+	height: 16px;
+}
+
+footer.footer div.copyright p{
+	margin-right: 503px;
 	font-family: inherit;
-	font-size: 11px;
+	font-size: 12px;
 	color: white;
 	text-transform: capitalize;
 }
+
