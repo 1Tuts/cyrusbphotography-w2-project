@@ -102,25 +102,25 @@
 					<div class="box">
 						<h3>تیتر آزمایشی</h3>
 						<ul>
-							<li>آیتم یک</li>
-							<li>آیتم دو</li>
-							<li>آیتم سه</li>
+							<li><a href="#">آیتم یک</a></li>
+							<li><a href="#">آیتم دو</a></li>
+							<li><a href="#">آیتم سه</a></li>
 						</ul>
 					</div>
 					<div class="box">
 						<h3>تیتر آزمایشی</h3>
 						<ul>
-							<li>آیتم یک</li>
-							<li>آیتم دو</li>
-							<li>آیتم سه</li>
+							<li><a href="#">آیتم یک</a></li>
+							<li><a href="#">آیتم دو</a></li>
+							<li><a href="#">آیتم سه/a></li>
 						</ul>
 					</div>
 					<div class="box">
 						<h3>تیتر آزمایشی</h3>
 						<ul>
-							<li>آیتم یک</li>
-							<li>آیتم دو</li>
-							<li>آیتم سه</li>
+							<li><a href="#">آیتم یک</a></li>
+							<li><a href="#">آیتم دو</a></li>
+							<li><a href="#">آیتم سه</a></li>
 						</ul>
 					</div>
 					<div class="clear"></div>
