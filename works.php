@@ -10,7 +10,23 @@
 	<title></title>
 </head>
 <body>
-	
+	<div class="back-slide">
+		<?php
+
+			$images_path = './images/back-slide';
+			$images      = scandir($images_path);
+
+			foreach ($images as $img) {
+
+				$img_type = strtolower( end( explode( '.' , $img ) ) );
+
+				if($img_type == 'jpg' || $img_type == 'png'){
+
+					echo "<div style=\"background-image : url('$images_path/$img');\"></div>";
+				}
+			}
+		?>
+	</div>
 	<div class="container">
 		<aside class="sidebar">
 			<header>
@@ -34,68 +50,70 @@
 				</a>
 			</div>
 		</aside>
-		<div class="content">
-			<h1 class="title">نمونه کارها</h1>
-			<div class="gallery">
-				<ul>
-					<li>
-						<h3>
-							<a href="images/work-big.jpg">عنوان عکس</a>							
-						</h3>
-						<div class="image-holder">
-							<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
-								<img src="images/works/1.png" width="320" height="220"/>
-							</a>
-						</div>
-						<p class="image-description">
-							توضیحاتی درباره تصویر
-						</p>
-						<a class="more">اطلاعات بیشتر</a>
-					</li>
-					<li>
-						<h3>
-							<a href="images/work-big.jpg">عنوان عکس</a>							
-						</h3>
-						<div class="image-holder">
-							<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
-								<img src="images/works/1.png" width="320" height="220"/>
-							</a>
-						</div>
-						<p class="image-description">
-							توضیحاتی درباره تصویر
-						</p>
-						<a class="more">اطلاعات بیشتر</a>
-						<div class="clear"></div>
-					</li>
-					<li>
-						<h3>
-							<a href="images/work-big.jpg">عنوان عکس</a>							
-						</h3>
-						<div class="image-holder">
-							<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
-								<img src="images/works/1.png" width="320" height="220"/>
-							</a>
-						</div>
-						<p class="image-description">
-							توضیحاتی درباره تصویر
-						</p>
-						<a class="more">اطلاعات بیشتر</a>
-					</li>
-					<li>
-						<h3>
-							<a href="images/work-big.jpg">عنوان عکس</a>							
-						</h3>
-						<div class="image-holder">
-							<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
-								<img src="images/works/1.png" width="320" height="220"/>
-							</a>
-						</div>
-						<p class="image-description">
-							توضیحاتی درباره تصویر
-						</p>
-						<a class="more">اطلاعات بیشتر</a>
-					</li>
-				</ul>
+		<div class="content-container">
+			<div class="content">
+				<h1 class="title">نمونه کارها</h1>
+				<div class="gallery">
+					<ul>
+						<li>
+							<h3>
+								<a href="images/work-big.jpg">عنوان عکس</a>							
+							</h3>
+							<div class="image-holder">
+								<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
+									<img src="images/works/1.png" width="320" height="220"/>
+								</a>
+							</div>
+							<p class="image-description">
+								توضیحاتی درباره تصویر
+							</p>
+							<a class="more">اطلاعات بیشتر</a>
+						</li>
+						<li>
+							<h3>
+								<a href="images/work-big.jpg">عنوان عکس</a>							
+							</h3>
+							<div class="image-holder">
+								<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
+									<img src="images/works/1.png" width="320" height="220"/>
+								</a>
+							</div>
+							<p class="image-description">
+								توضیحاتی درباره تصویر
+							</p>
+							<a class="more">اطلاعات بیشتر</a>
+							<div class="clear"></div>
+						</li>
+						<li>
+							<h3>
+								<a href="images/work-big.jpg">عنوان عکس</a>							
+							</h3>
+							<div class="image-holder">
+								<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
+									<img src="images/works/1.png" width="320" height="220"/>
+								</a>
+							</div>
+							<p class="image-description">
+								توضیحاتی درباره تصویر
+							</p>
+							<a class="more">اطلاعات بیشتر</a>
+						</li>
+						<li>
+							<h3>
+								<a href="images/work-big.jpg">عنوان عکس</a>							
+							</h3>
+							<div class="image-holder">
+								<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
+									<img src="images/works/1.png" width="320" height="220"/>
+								</a>
+							</div>
+							<p class="image-description">
+								توضیحاتی درباره تصویر
+							</p>
+							<a class="more">اطلاعات بیشتر</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 			</div>
 			<footer class="footer">
