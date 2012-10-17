@@ -115,7 +115,6 @@
 					</ul>
 				</div>
 			</div>
-			</div>
 			<footer class="footer">
 				<div class="boxes">
 					<div class="box">
