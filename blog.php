@@ -53,7 +53,13 @@
 		<div class="content-container">
 			<div class="content">
 				<h1 class="title">Blog</h1>
-				
+				<div class="post">
+					<h2 class="post-title">پسا اول من</h2>
+					<div class="post-content">
+						<img src="images/blog.png" alt="blog" width="460" height="300" />
+						<p class="post">سلام من سیروس هستم.عکاس و دارای آتلیه سلام من سیروس هستم.عکاس و دارای آتلیه سلام من سیروس هستم.عکاس و دارای آتلیه سلام من سیروس هستم.عکاس و دارای آتلیهسلام من سیروس هستم.عکاس و دارای آتلیه سلام من سیروس هستم.عکاس و دارای آتلیه</p>
+					</div>
+				</div>				
 			</div>
 			<footer class="footer">
 				<div class="boxes">

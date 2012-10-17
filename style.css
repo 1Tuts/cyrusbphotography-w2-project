@@ -125,11 +125,10 @@ aside.sidebar header nav menu li a span {
 }
 
 div.content-container{
-	background-image: url('images/content_back.png');
-	padding             : 24px 25px 5px 25px;
-	margin-right: 250px;
-	padding: 24px 25px 5px 25px;
-	background-repeat: repeat-y;
+	background-image   : url('images/content_back.png');
+	margin-right       : 250px;
+	padding            : 24px 25px 5px 25px;
+	background-repeat  : repeat-y;
 	background-position: center;
 }
 
@@ -187,34 +186,34 @@ div.content div.gallery ul li div.image-holder a.gallery-image{
 }
 
 div.content div.gallery ul li div.image-holder:hover a.gallery-image{
-	opacity: 0.7;
+	opacity           : 0.7;
 	-webkit-transition: all 1s;
-	-ms-transition: all 1s;
-	-o-transition: all 1s;
-	-moz-transition: all 1s;
+	-ms-transition    : all 1s;
+	-o-transition     : all 1s;
+	-moz-transition   : all 1s;
 }
 
 div.content div.gallery ul li p.image-description{
-	color: #fff;
+	color      : #fff;
 	font-family: inherit;
-	font-size: 10px;
+	font-size  : 10px;
 	line-height: 1.2;
-	margin: 10px 0;
+	margin     : 10px 0;
 }
 
 div.content div.gallery ul li a.more{
-	-moz-border-radius: 3px;
+	-moz-border-radius   : 3px;
 	-webkit-border-radius: 3px;
-	border-radius: 3px;
-	border: 1px solid #2C2C2C;
-	background-color: #111;
-	text-align: center;
-	font-size: 11px;
-	padding: 5px 3px;
-	width: 80px;
-	color: #fff;
-	text-decoration: none;
-	cursor: pointer;
+	border-radius        : 3px;
+	border               : 1px solid #2C2C2C;
+	background-color     : #111;
+	text-align           : center;
+	font-size            : 11px;
+	padding              : 5px 3px;
+	width                : 80px;
+	color                : #fff;
+	text-decoration      : none;
+	cursor               : pointer;
 }
 
 div.content div.gallery ul li a.more:hover{
@@ -258,18 +257,18 @@ div.content form#contact input,div.content form#contact textarea {
 }
 
 div.content form#contact input:focus::-webkit-input-placeholder{
-	color : transparent;
-	-webkit-transition : all 400ms;
+	color             : transparent;
+	-webkit-transition: all 400ms;
 }
  
 div.content form#contact textarea:focus::-webkit-input-placeholder{
-	color : transparent;
-	-webkit-transition : all 300ms;
+	color             : transparent;
+	-webkit-transition: all 300ms;
 }
 
 div.content div.contact-info {
 	margin-right: 500px;
-	min-height : 500px;
+	min-height  : 500px;
 }
 
 div.content div.contact-info h3 {
@@ -300,21 +299,21 @@ div.content div.contact-info ul li.address {
 /*************************  BIOGRAPHY  *****************************/
 
 h1.cyrus {
-	font-size: 16px;
-	font-weight: bold;
-	color: white;
-	margin-bottom: 20px;
+	font-size     : 16px;
+	font-weight   : bold;
+	color         : white;
+	margin-bottom : 20px;
 }
 
 section.biography{
-	margin-bottom: 100px;
+	margin-bottom : 100px;
 }
 
 section.biography p{
-	font-size: 12px;
-	font-family: inherit;
-	color: #eee;
-	margin-bottom: 10px;
+	font-size     : 12px;
+	font-family   : inherit;
+	color         : #eee;
+	margin-bottom : 10px;
 }
 
 /************************* footer ************************************/
@@ -322,64 +321,90 @@ footer.footer{
 }
 
 footer.footer div.boxes{
-	border-top : 1px solid #555;
-	border-bottom : 1px solid #555;
+	border-top   : 1px solid #555;
+	border-bottom: 1px solid #555;
 }
 
 footer.footer div.boxes div.box{
-	float: right;
-	width: 199px;
+	float  : right;
+	width  : 199px;
 	padding: 40px 17px;
 }
 
 footer.footer div.box h3{
-	font-family: inherit;
-	font-size: 13px;
-	font-weight: bold;
-	color: #ddd;
-	text-decoration: none;
-	padding-bottom: 15px;
-	border-bottom: 1px solid #444;
+	font-family     : inherit;
+	font-size       : 13px;
+	font-weight     : bold;
+	color           : #ddd;
+	text-decoration : none;
+	padding-bottom  : 15px;
+	border-bottom   : 1px solid #444;
 }
 
 footer.footer div.box ul li a{
-	padding: 8px 7px 8px 0;
-	font-family: inherit;
-	font-size: 13px;
-	text-decoration: none;
-	color: #ddd;
-	border-bottom: 1px solid #444;
+	padding         : 8px 7px 8px 0;
+	font-family     : inherit;
+	font-size       : 13px;
+	text-decoration : none;
+	color           : #ddd;
+	border-bottom   : 1px solid #444;
 }
 
 footer.footer div.box ul li:hover a{
-	background-color: #333;
+	background-color : #333;
 }
 
 footer.footer div.copyright{
-	padding: 23px 17px;
+	padding : 23px 17px;
 }
 
 footer.footer div.copyright section.social{
-	float: right;
+	float : right;
 }
 
 footer.footer div.copyright section.social ul li{
-	width: 16px;
-	height: 16px;
-	float: right;
+	width      : 16px;
+	height     : 16px;
+	float      : right;
 	margin-left:12px;
 }
 
 footer.footer div.copyright section.social ul li a{
-	width: 16px;
-	height: 16px;
+	width  : 16px;
+	height : 16px;
 }
 
 footer.footer div.copyright p{
-	margin-right: 503px;
-	font-family: inherit;
-	font-size: 12px;
-	color: white;
-	text-transform: capitalize;
+	margin-right   : 503px;
+	font-family    : inherit;
+	font-size      : 12px;
+	color          : white;
+	text-transform : capitalize;
 }
 
+/***************************  BLOG  *****************************/
+
+div.post h2.post-title {
+	font-family   : Tahoma;
+	font-size     : 15px;
+	font-weight   : bold;
+	text-transform: uppercase;
+	margin        : 0 0 40px 0;
+	color         : white; 
+}
+
+div.post-content img {
+	display : block;
+	margin-bottom: 25px;
+}
+
+div.post-content p.post {
+	font-family: Tahoma;
+	font-size: 13px;
+	color: #aaa;
+	line-height: 20px;
+}
+
+div.post-content p.post:first-line {
+	padding-right:30px;
+}
