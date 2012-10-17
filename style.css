@@ -124,13 +124,15 @@ aside.sidebar header nav menu li a span {
 	margin     : 0 auto;
 }
 
-div.content {
+div.content-container{
 	background-image: url('images/content_back.png');
 	margin-right: 250px;
 	padding: 24px 25px 5px 25px;
-	min-height: 610px;
 	background-repeat: repeat-y;
 	background-position: center;
+}
+
+div.content {
 }
 
 /********************************** WORKS *****************************************/
