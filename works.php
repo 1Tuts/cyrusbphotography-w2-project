@@ -34,68 +34,70 @@
 				</a>
 			</div>
 		</aside>
-		<div class="content">
-			<h1 class="title">نمونه کارها</h1>
-			<div class="gallery">
-				<ul>
-					<li>
-						<h3>
-							<a href="images/work-big.jpg">عنوان عکس</a>							
-						</h3>
-						<div class="image-holder">
-							<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
-								<img src="images/works/1.png" width="320" height="220"/>
-							</a>
-						</div>
-						<p class="image-description">
-							توضیحاتی درباره تصویر
-						</p>
-						<a class="more">اطلاعات بیشتر</a>
-					</li>
-					<li>
-						<h3>
-							<a href="images/work-big.jpg">عنوان عکس</a>							
-						</h3>
-						<div class="image-holder">
-							<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
-								<img src="images/works/1.png" width="320" height="220"/>
-							</a>
-						</div>
-						<p class="image-description">
-							توضیحاتی درباره تصویر
-						</p>
-						<a class="more">اطلاعات بیشتر</a>
-						<div class="clear"></div>
-					</li>
-					<li>
-						<h3>
-							<a href="images/work-big.jpg">عنوان عکس</a>							
-						</h3>
-						<div class="image-holder">
-							<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
-								<img src="images/works/1.png" width="320" height="220"/>
-							</a>
-						</div>
-						<p class="image-description">
-							توضیحاتی درباره تصویر
-						</p>
-						<a class="more">اطلاعات بیشتر</a>
-					</li>
-					<li>
-						<h3>
-							<a href="images/work-big.jpg">عنوان عکس</a>							
-						</h3>
-						<div class="image-holder">
-							<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
-								<img src="images/works/1.png" width="320" height="220"/>
-							</a>
-						</div>
-						<p class="image-description">
-							توضیحاتی درباره تصویر
-						</p>
-						<a class="more">اطلاعات بیشتر</a>
-					</li>
-				</ul>
+		<div class="content-container">
+			<div class="content">
+				<h1 class="title">نمونه کارها</h1>
+				<div class="gallery">
+					<ul>
+						<li>
+							<h3>
+								<a href="images/work-big.jpg">عنوان عکس</a>							
+							</h3>
+							<div class="image-holder">
+								<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
+									<img src="images/works/1.png" width="320" height="220"/>
+								</a>
+							</div>
+							<p class="image-description">
+								توضیحاتی درباره تصویر
+							</p>
+							<a class="more">اطلاعات بیشتر</a>
+						</li>
+						<li>
+							<h3>
+								<a href="images/work-big.jpg">عنوان عکس</a>							
+							</h3>
+							<div class="image-holder">
+								<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
+									<img src="images/works/1.png" width="320" height="220"/>
+								</a>
+							</div>
+							<p class="image-description">
+								توضیحاتی درباره تصویر
+							</p>
+							<a class="more">اطلاعات بیشتر</a>
+							<div class="clear"></div>
+						</li>
+						<li>
+							<h3>
+								<a href="images/work-big.jpg">عنوان عکس</a>							
+							</h3>
+							<div class="image-holder">
+								<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
+									<img src="images/works/1.png" width="320" height="220"/>
+								</a>
+							</div>
+							<p class="image-description">
+								توضیحاتی درباره تصویر
+							</p>
+							<a class="more">اطلاعات بیشتر</a>
+						</li>
+						<li>
+							<h3>
+								<a href="images/work-big.jpg">عنوان عکس</a>							
+							</h3>
+							<div class="image-holder">
+								<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
+									<img src="images/works/1.png" width="320" height="220"/>
+								</a>
+							</div>
+							<p class="image-description">
+								توضیحاتی درباره تصویر
+							</p>
+							<a class="more">اطلاعات بیشتر</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 			<footer class="footer">
 				<div class="boxes">
