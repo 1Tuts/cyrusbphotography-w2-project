@@ -55,6 +55,9 @@
 				<h1 class="title">Blog</h1>
 				<div class="post">
 					<h2 class="post-title">پسا اول من</h2>
+					<div class="post-time">
+						<p>september 3 2011</p>
+					</div>
 					<div class="post-content">
 						<img src="images/blog.png" alt="blog" width="460" height="300" />
 						<p class="post">سلام من سیروس هستم.عکاس و دارای آتلیه سلام من سیروس هستم.عکاس و دارای آتلیه سلام من سیروس هستم.عکاس و دارای آتلیه سلام من سیروس هستم.عکاس و دارای آتلیهسلام من سیروس هستم.عکاس و دارای آتلیه سلام من سیروس هستم.عکاس و دارای آتلیه</p>

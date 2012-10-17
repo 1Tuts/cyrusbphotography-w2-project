@@ -133,7 +133,7 @@ div.content-container{
 }
 
 div.content {
-	padding-bottom: 15px;
+	padding-bottom : 15px;
 }
 
 /********************************** WORKS *****************************************/
@@ -384,25 +384,46 @@ footer.footer div.copyright p{
 }
 
 /***************************  BLOG  *****************************/
+div.post {
+	margin-bottom: 30px;
+}
 
 div.post h2.post-title {
 	font-family   : Tahoma;
 	font-size     : 15px;
 	font-weight   : bold;
 	text-transform: uppercase;
-	margin        : 0 0 40px 0;
+	padding: 0 0 15px 0;
 	color         : white; 
+	border-bottom: 1px solid #444;
+	
+}
+
+div.post div.post-time {
+	padding-right: 10px;
+	border-bottom: 1px solid #444;
+	margin-bottom      : 15px;
+}
+
+div.post div.post-time p {
+	color              : #ccc;
+	padding            : 8px 20px 8px 0;
+	font-size          : 13px;
+	padding-right      : 20px;
+	background-image   : url('images/calendar.png');
+	background-repeat  : no-repeat;
+	background-position: center right;
 }
 
 div.post-content img {
-	display : block;
-	margin-bottom: 25px;
+	display       : block;
+	margin-bottom : 25px;
 }
 
 div.post-content p.post {
-	font-family: Tahoma;
-	font-size: 13px;
-	color: #aaa;
-	line-height: 20px;
-	text-indent: 30px;
+	font-family : Tahoma;
+	font-size   : 13px;
+	color       : #aaa;
+	line-height : 20px;
+	text-indent : 30px;
 }
