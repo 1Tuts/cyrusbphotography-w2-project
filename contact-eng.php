@@ -50,67 +50,69 @@
 				</a>
 			</div>
 		</aside>
-		<div class="content">
-			<h1 class="title">فرم تماس با من</h1>
-			<form action="mail.php" id="contact" method="post">
-				<input type="text" class="text" name="name" id="name" placeholder="نام" />
-				<input type="text" class="text" name="email" id="email" placeholder="ایمیل" />
-				<textarea name="message" id="message" cols="40" rows="10" placeholder="پیام"></textarea>
-				<input type="submit" value="ارسال" class="button" id="submit" name="submit" />
-			</form>
-			<div class="contact-info">
-				<h3>راه های ارتباطی با من</h3>
-				<ul>
-					<li class="tell">۰۹۱۵۴۴۶۲۳۲۳</li>
-					<li class="mail">info@cyrusb-photo</li>
-					<li class="address">مشهد، سجاد</li>
-					<li class="google-map"></li>
-				</ul>
+		<div class="content-container">
+			<div class="content">
+				<h1 class="title">فرم تماس با من</h1>
+				<form action="mail.php" id="contact" method="post">
+					<input type="text" class="text" name="name" id="name" placeholder="نام" />
+					<input type="text" class="text" name="email" id="email" placeholder="ایمیل" />
+					<textarea name="message" id="message" cols="40" rows="10" placeholder="پیام"></textarea>
+					<input type="submit" value="ارسال" class="button" id="submit" name="submit" />
+				</form>
+				<div class="contact-info">
+					<h3>راه های ارتباطی با من</h3>
+					<ul>
+						<li class="tell">۰۹۱۵۴۴۶۲۳۲۳</li>
+						<li class="mail">info@cyrusb-photo</li>
+						<li class="address">مشهد، سجاد</li>
+						<li class="google-map"></li>
+					</ul>
+				</div>
+				<footer class="footer">
+					<div class="boxes">
+						<div class="box">
+							<h3>تیتر آزمایشی</h3>
+							<ul>
+								<li><a href="#">آیتم یک</a></li>
+								<li><a href="#">آیتم دو</a></li>
+								<li><a href="#">آیتم سه</a></li>
+							</ul>
+						</div>
+						<div class="box">
+							<h3>تیتر آزمایشی</h3>
+							<ul>
+								<li><a href="#">آیتم یک</a></li>
+								<li><a href="#">آیتم دو</a></li>
+								<li><a href="#">آیتم سه</a></li>
+							</ul>
+						</div>
+						<div class="box">
+							<h3>تیتر آزمایشی</h3>
+							<ul>
+								<li><a href="#">آیتم یک</a></li>
+								<li><a href="#">آیتم دو</a></li>
+								<li><a href="#">آیتم سه</a></li>
+							</ul>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="copyright">
+						<section class="social">
+							<ul>
+								<li><a href="#" target="_blank"><img src="images/facebook.png" width="16" height="16"/></a></li>
+								<li><a href="#" target="_blank"><img src="images/googleplus.png" width="16" height="16"/></a></li>
+								<li><a href="#" target="_blank"><img src="images/linkedin.png" width="16" height="16"/></a></li>
+								<li><a href="#" target="_blank"><img src="images/twitter.png" width="16" height="16"/></a></li>
+								<li><a href="#" target="_blank"><img src="images/flickr.png" width="16" height="16"/></a></li>
+								<li><a href="#" target="_blank"><img src="images/picasa.png" width="16" height="16"/></a></li>
+								<li><a href="#" target="_blank"><img src="images/youtube.png" width="16" height="16"/></a></li>
+								<li><a href="#" target="_blank"><img src="images/rss.png" width="16" height="16"/></a></li>
+							</ul>
+						</section>
+						<p>copyright 2012 sirous bijanfar</p>
+					</div>
+				</footer>
 			</div>
-			<footer class="footer">
-				<div class="boxes">
-					<div class="box">
-						<h3>تیتر آزمایشی</h3>
-						<ul>
-							<li><a href="#">آیتم یک</a></li>
-							<li><a href="#">آیتم دو</a></li>
-							<li><a href="#">آیتم سه</a></li>
-						</ul>
-					</div>
-					<div class="box">
-						<h3>تیتر آزمایشی</h3>
-						<ul>
-							<li><a href="#">آیتم یک</a></li>
-							<li><a href="#">آیتم دو</a></li>
-							<li><a href="#">آیتم سه</a></li>
-						</ul>
-					</div>
-					<div class="box">
-						<h3>تیتر آزمایشی</h3>
-						<ul>
-							<li><a href="#">آیتم یک</a></li>
-							<li><a href="#">آیتم دو</a></li>
-							<li><a href="#">آیتم سه</a></li>
-						</ul>
-					</div>
-					<div class="clear"></div>
-				</div>
-				<div class="copyright">
-					<section class="social">
-						<ul>
-							<li><a href="#" target="_blank"><img src="images/facebook.png" width="16" height="16"/></a></li>
-							<li><a href="#" target="_blank"><img src="images/googleplus.png" width="16" height="16"/></a></li>
-							<li><a href="#" target="_blank"><img src="images/linkedin.png" width="16" height="16"/></a></li>
-							<li><a href="#" target="_blank"><img src="images/twitter.png" width="16" height="16"/></a></li>
-							<li><a href="#" target="_blank"><img src="images/flickr.png" width="16" height="16"/></a></li>
-							<li><a href="#" target="_blank"><img src="images/picasa.png" width="16" height="16"/></a></li>
-							<li><a href="#" target="_blank"><img src="images/youtube.png" width="16" height="16"/></a></li>
-							<li><a href="#" target="_blank"><img src="images/rss.png" width="16" height="16"/></a></li>
-						</ul>
-					</section>
-					<p>copyright 2012 sirous bijanfar</p>
-				</div>
-			</footer>
 		</div>
 	</div>
 </body>
