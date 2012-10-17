@@ -10,7 +10,23 @@
 	<title></title>
 </head>
 <body>
-	
+	<div class="back-slide">
+		<?php
+
+			$images_path = './images/back-slide';
+			$images      = scandir($images_path);
+
+			foreach ($images as $img) {
+
+				$img_type = strtolower( end( explode( '.' , $img ) ) );
+
+				if($img_type == 'jpg' || $img_type == 'png'){
+
+					echo "<div style=\"background-image : url('$images_path/$img');\"></div>";
+				}
+			}
+		?>
+	</div>
 	<div class="container">
 		<aside class="sidebar">
 			<header>
