@@ -403,8 +403,5 @@ div.post-content p.post {
 	font-size: 13px;
 	color: #aaa;
 	line-height: 20px;
-}
-
-div.post-content p.post:first-line {
-	padding-right:30px;
+	text-indent: 30px;
 }
