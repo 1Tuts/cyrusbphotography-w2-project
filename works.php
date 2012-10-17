@@ -9,8 +9,7 @@
 	<script type="text/javascript" src="scripts.js"></script>
 	<title></title>
 </head>
-<body>
-	
+<body>	
 	<div class="container">
 		<aside class="sidebar">
 			<header>
@@ -34,69 +33,108 @@
 				</a>
 			</div>
 		</aside>
-		<div class="content">
-			<h1 class="title">نمونه کارها</h1>
-			<div class="gallery">
-				<ul>
-					<li>
-						<h3>
-							<a href="images/work-big.jpg">عنوان عکس</a>							
-						</h3>
-						<div class="image-holder">
-							<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
-								<img src="images/works/1.png" width="320" height="220"/>
-							</a>
-						</div>
-						<p class="image-description">
-							توضیحاتی درباره تصویر
-						</p>
-						<a class="more">اطلاعات بیشتر</a>
-					</li>
-					<li>
-						<h3>
-							<a href="images/work-big.jpg">عنوان عکس</a>							
-						</h3>
-						<div class="image-holder">
-							<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
-								<img src="images/works/1.png" width="320" height="220"/>
-							</a>
-						</div>
-						<p class="image-description">
-							توضیحاتی درباره تصویر
-						</p>
-						<a class="more">اطلاعات بیشتر</a>
-						<div class="clear"></div>
-					</li>
-					<li>
-						<h3>
-							<a href="images/work-big.jpg">عنوان عکس</a>							
-						</h3>
-						<div class="image-holder">
-							<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
-								<img src="images/works/1.png" width="320" height="220"/>
-							</a>
-						</div>
-						<p class="image-description">
-							توضیحاتی درباره تصویر
-						</p>
-						<a class="more">اطلاعات بیشتر</a>
-					</li>
-					<li>
-						<h3>
-							<a href="images/work-big.jpg">عنوان عکس</a>							
-						</h3>
-						<div class="image-holder">
-							<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
-								<img src="images/works/1.png" width="320" height="220"/>
-							</a>
-						</div>
-						<p class="image-description">
-							توضیحاتی درباره تصویر
-						</p>
-						<a class="more">اطلاعات بیشتر</a>
-					</li>
-				</ul>
+		<div class="content-container">
+			<div class="content">
+				<h1 class="title">نمونه کارها</h1>
+				<div class="gallery">
+					<ul>
+						<li>
+							<h3>
+								<a href="images/work-big.jpg">عنوان عکس</a>							
+							</h3>
+							<div class="image-holder">
+								<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
+									<img src="images/works/1.png" width="320" height="220"/>
+								</a>
+							</div>
+							<p class="image-description">
+								توضیحاتی درباره تصویر
+							</p>
+							<a class="more">اطلاعات بیشتر</a>
+						</li>
+						<li>
+							<h3>
+								<a href="images/work-big.jpg">عنوان عکس</a>							
+							</h3>
+							<div class="image-holder">
+								<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
+									<img src="images/works/1.png" width="320" height="220"/>
+								</a>
+							</div>
+							<p class="image-description">
+								توضیحاتی درباره تصویر
+							</p>
+							<a class="more">اطلاعات بیشتر</a>
+							<div class="clear"></div>
+						</li>
+						<li>
+							<h3>
+								<a href="images/work-big.jpg">عنوان عکس</a>							
+							</h3>
+							<div class="image-holder">
+								<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
+									<img src="images/works/1.png" width="320" height="220"/>
+								</a>
+							</div>
+							<p class="image-description">
+								توضیحاتی درباره تصویر
+							</p>
+							<a class="more">اطلاعات بیشتر</a>
+						</li>
+						<li>
+							<h3>
+								<a href="images/work-big.jpg">عنوان عکس</a>							
+							</h3>
+							<div class="image-holder">
+								<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
+									<img src="images/works/1.png" width="320" height="220"/>
+								</a>
+							</div>
+							<p class="image-description">
+								توضیحاتی درباره تصویر
+							</p>
+							<a class="more">اطلاعات بیشتر</a>
+						</li>
+					</ul>
+				</div>
 			</div>
+			<footer>
+				<div class="links">
+					<div class="learn-more">
+						<h6>بیشتر آشنا شوید</h6>
+						<ul>
+							<li><a href="#" title="">بلاگ</a></li>
+							<li><a href="#" title="">نمونه کارها</a></li>
+							<li><a href="#" title="">تماس با من</a></li>
+						</ul>
+					</div>
+					<div class="contact-links">
+						<h6>راه های تماس با من</h6>
+						<ul>
+							<li><a href="#" title="">ایمیل</a></li>
+							<li><a href="#" title="">تلفتن تماس</a></li>
+							<li><a href="#" title="">تماس با من</a></li>
+						</ul>
+					</div>
+					<div class="cooprate">
+						<h6>همکاری</h6>
+						<p>
+							برای همکاری و یا هرگونه مشکلی با من تماس بر قرار کنید
+						</p>
+					</div>
+				</div>
+				<div class="copyright">
+					<div class="social-hubs">
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+					<p class="goldentech">طراحی و پیاده سازی توسط <a href="http://www.goldentech.org" title="">فناوری طلایی</a></p>
+				</div>
+			</footer>
 		</div>
 	</div>
 </body>

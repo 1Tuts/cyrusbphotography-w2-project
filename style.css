@@ -37,8 +37,8 @@ div.back-slide > div {
 }
 
 div.container {
-	width : 1000px;
-	margin: 0 auto;
+	width     : 1000px;
+	margin    : 0 auto;
 	min-height: 550px;
 }
 
@@ -124,24 +124,24 @@ aside.sidebar header nav menu li a span {
 	margin     : 0 auto;
 }
 
-div.content {
-	background-image: url('images/content_back.png');
-	margin-right: 250px;
-	padding: 24px 25px 5px 25px;
-	min-height: 610px;
-	background-repeat: repeat-y;
-	background-position: center;
+div.content-container {
+	background-image    : url('images/content_back.png');
+	padding             : 24px 25px 5px 25px;
+	margin-right        : 240px;
+	min-height          : 610px;
+	background-repeat   : repeat-y;
+	background-position : center;
 }
 
 /********************************** WORKS *****************************************/
 
 div.content h1.title {
-	font-family   : Tahoma;
-	font-size     : 18px;
-	font-weight   : bold;
-	text-transform: uppercase;
-	margin        : 0 0 40px 0;
-	color         : white; 
+	font-family    : Tahoma;
+	font-size      : 18px;
+	font-weight    : bold;
+	text-transform : uppercase;
+	margin         : 0 0 40px 0;
+	color          : white; 
 }
 
 div.content div.gallery {
@@ -304,6 +304,38 @@ h1.cyrus {
 }
 
 p.biography {
-	font-size: 15px;
-	color: #eee;
+	font-size : 15px;
+	color     : #eee;
 }
+
+/*******************************  FOOTER  **************************/
+
+footer {
+}
+
+footer > div {
+	border-top : 1px solid #999;
+}
+
+footer div.links ul {
+	width        : 250px;
+	min-height   : 100px;
+	margin-right : 10px;
+}
+
+footer div.links ul:first-child {
+	margin-right : 0;
+}
+
+footer div.links ul.learn-more {
+	float : right;
+}
+
+footer div.links ul.contact-links {
+	float : right;
+}
+
+footer div.links ul.cooprate {
+	margin-right : 500px;
+}
+
