@@ -37,8 +37,8 @@ div.back-slide > div {
 }
 
 div.container {
-	width     : 1000px;
-	margin    : 0 auto;
+	width : 1000px;
+	margin: 0 auto;
 	min-height: 550px;
 }
 
@@ -124,24 +124,25 @@ aside.sidebar header nav menu li a span {
 	margin     : 0 auto;
 }
 
-div.content-container {
-	background-image    : url('images/content_back.png');
+div.content {
+	background-image: url('images/content_back.png');
 	padding             : 24px 25px 5px 25px;
-	margin-right        : 240px;
-	min-height          : 610px;
-	background-repeat   : repeat-y;
-	background-position : center;
+	margin-right: 250px;
+	padding: 24px 25px 5px 25px;
+	min-height: 610px;
+	background-repeat: repeat-y;
+	background-position: center;
 }
 
 /********************************** WORKS *****************************************/
 
 div.content h1.title {
-	font-family    : Tahoma;
-	font-size      : 18px;
-	font-weight    : bold;
-	text-transform : uppercase;
-	margin         : 0 0 40px 0;
-	color          : white; 
+	font-family   : Tahoma;
+	font-size     : 18px;
+	font-weight   : bold;
+	text-transform: uppercase;
+	margin        : 0 0 40px 0;
+	color         : white; 
 }
 
 div.content div.gallery {
@@ -297,45 +298,86 @@ div.content div.contact-info ul li.address {
 /*************************  BIOGRAPHY  *****************************/
 
 h1.cyrus {
-	font-size: 22px;
+	font-size: 16px;
 	font-weight: bold;
 	color: white;
-	margin-bottom: 35px;
+	margin-bottom: 20px;
 }
 
-p.biography {
-	font-size : 15px;
-	color     : #eee;
+section.biography{
+	margin-bottom: 100px;
 }
 
-/*******************************  FOOTER  **************************/
-
-footer {
+section.biography p{
+	font-size: 12px;
+	font-family: inherit;
+	color: #eee;
+	margin-bottom: 10px;
 }
 
-footer > div {
-	border-top : 1px solid #999;
+/************************* footer ************************************/
+footer.footer{
 }
 
-footer div.links ul {
-	width        : 250px;
-	min-height   : 100px;
-	margin-right : 10px;
+footer.footer div.boxes{
+	border-top : 1px solid #555;
+	border-bottom : 1px solid #555;
 }
 
-footer div.links ul:first-child {
-	margin-right : 0;
+footer.footer div.boxes div.box{
+	float: right;
+	width: 199px;
+	padding: 40px 17px;
 }
 
-footer div.links ul.learn-more {
-	float : right;
+footer.footer div.box h3{
+	font-family: inherit;
+	font-size: 13px;
+	font-weight: bold;
+	color: #ddd;
+	text-decoration: none;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #444;
 }
 
-footer div.links ul.contact-links {
-	float : right;
+footer.footer div.box ul li a{
+	padding: 8px 7px 8px 0;
+	font-family: inherit;
+	font-size: 13px;
+	text-decoration: none;
+	color: #ddd;
+	border-bottom: 1px solid #444;
 }
 
-footer div.links ul.cooprate {
-	margin-right : 500px;
+footer.footer div.box ul li:hover a{
+	background-color: #333;
+}
+
+footer.footer div.copyright{
+	padding: 23px 17px;
+}
+
+footer.footer div.copyright section.social{
+	float: right;
+}
+
+footer.footer div.copyright section.social ul li{
+	width: 16px;
+	height: 16px;
+	float: right;
+	margin-left:12px;
+}
+
+footer.footer div.copyright section.social ul li a{
+	width: 16px;
+	height: 16px;
+}
+
+footer.footer div.copyright p{
+	margin-right: 503px;
+	font-family: inherit;
+	font-size: 12px;
+	color: white;
+	text-transform: capitalize;
 }
 

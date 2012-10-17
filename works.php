@@ -9,7 +9,8 @@
 	<script type="text/javascript" src="scripts.js"></script>
 	<title></title>
 </head>
-<body>	
+<body>
+	
 	<div class="container">
 		<aside class="sidebar">
 			<header>
@@ -33,106 +34,112 @@
 				</a>
 			</div>
 		</aside>
-		<div class="content-container">
-			<div class="content">
-				<h1 class="title">نمونه کارها</h1>
-				<div class="gallery">
-					<ul>
-						<li>
-							<h3>
-								<a href="images/work-big.jpg">عنوان عکس</a>							
-							</h3>
-							<div class="image-holder">
-								<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
-									<img src="images/works/1.png" width="320" height="220"/>
-								</a>
-							</div>
-							<p class="image-description">
-								توضیحاتی درباره تصویر
-							</p>
-							<a class="more">اطلاعات بیشتر</a>
-						</li>
-						<li>
-							<h3>
-								<a href="images/work-big.jpg">عنوان عکس</a>							
-							</h3>
-							<div class="image-holder">
-								<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
-									<img src="images/works/1.png" width="320" height="220"/>
-								</a>
-							</div>
-							<p class="image-description">
-								توضیحاتی درباره تصویر
-							</p>
-							<a class="more">اطلاعات بیشتر</a>
-							<div class="clear"></div>
-						</li>
-						<li>
-							<h3>
-								<a href="images/work-big.jpg">عنوان عکس</a>							
-							</h3>
-							<div class="image-holder">
-								<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
-									<img src="images/works/1.png" width="320" height="220"/>
-								</a>
-							</div>
-							<p class="image-description">
-								توضیحاتی درباره تصویر
-							</p>
-							<a class="more">اطلاعات بیشتر</a>
-						</li>
-						<li>
-							<h3>
-								<a href="images/work-big.jpg">عنوان عکس</a>							
-							</h3>
-							<div class="image-holder">
-								<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
-									<img src="images/works/1.png" width="320" height="220"/>
-								</a>
-							</div>
-							<p class="image-description">
-								توضیحاتی درباره تصویر
-							</p>
-							<a class="more">اطلاعات بیشتر</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<footer>
-				<div class="links">
-					<div class="learn-more">
-						<h6>بیشتر آشنا شوید</h6>
-						<ul>
-							<li><a href="#" title="">بلاگ</a></li>
-							<li><a href="#" title="">نمونه کارها</a></li>
-							<li><a href="#" title="">تماس با من</a></li>
-						</ul>
-					</div>
-					<div class="contact-links">
-						<h6>راه های تماس با من</h6>
-						<ul>
-							<li><a href="#" title="">ایمیل</a></li>
-							<li><a href="#" title="">تلفتن تماس</a></li>
-							<li><a href="#" title="">تماس با من</a></li>
-						</ul>
-					</div>
-					<div class="cooprate">
-						<h6>همکاری</h6>
-						<p>
-							برای همکاری و یا هرگونه مشکلی با من تماس بر قرار کنید
+		<div class="content">
+			<h1 class="title">نمونه کارها</h1>
+			<div class="gallery">
+				<ul>
+					<li>
+						<h3>
+							<a href="images/work-big.jpg">عنوان عکس</a>							
+						</h3>
+						<div class="image-holder">
+							<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
+								<img src="images/works/1.png" width="320" height="220"/>
+							</a>
+						</div>
+						<p class="image-description">
+							توضیحاتی درباره تصویر
 						</p>
+						<a class="more">اطلاعات بیشتر</a>
+					</li>
+					<li>
+						<h3>
+							<a href="images/work-big.jpg">عنوان عکس</a>							
+						</h3>
+						<div class="image-holder">
+							<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
+								<img src="images/works/1.png" width="320" height="220"/>
+							</a>
+						</div>
+						<p class="image-description">
+							توضیحاتی درباره تصویر
+						</p>
+						<a class="more">اطلاعات بیشتر</a>
+						<div class="clear"></div>
+					</li>
+					<li>
+						<h3>
+							<a href="images/work-big.jpg">عنوان عکس</a>							
+						</h3>
+						<div class="image-holder">
+							<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
+								<img src="images/works/1.png" width="320" height="220"/>
+							</a>
+						</div>
+						<p class="image-description">
+							توضیحاتی درباره تصویر
+						</p>
+						<a class="more">اطلاعات بیشتر</a>
+					</li>
+					<li>
+						<h3>
+							<a href="images/work-big.jpg">عنوان عکس</a>							
+						</h3>
+						<div class="image-holder">
+							<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
+								<img src="images/works/1.png" width="320" height="220"/>
+							</a>
+						</div>
+						<p class="image-description">
+							توضیحاتی درباره تصویر
+						</p>
+						<a class="more">اطلاعات بیشتر</a>
+					</li>
+				</ul>
+			</div>
+			</div>
+			<footer class="footer">
+				<div class="boxes">
+					<div class="box">
+						<h3>تیتر آزمایشی</h3>
+						<ul>
+							<li><a href="#">آیتم یک</a></li>
+							<li><a href="#">آیتم دو</a></li>
+							<li><a href="#">آیتم سه</a></li>
+						</ul>
 					</div>
+					<div class="box">
+						<h3>تیتر آزمایشی</h3>
+						<ul>
+							<li><a href="#">آیتم یک</a></li>
+							<li><a href="#">آیتم دو</a></li>
+							<li><a href="#">آیتم سه</a></li>
+						</ul>
+					</div>
+					<div class="box">
+						<h3>تیتر آزمایشی</h3>
+						<ul>
+							<li><a href="#">آیتم یک</a></li>
+							<li><a href="#">آیتم دو</a></li>
+							<li><a href="#">آیتم سه</a></li>
+						</ul>
+					</div>
+					<div class="clear"></div>
 				</div>
 				<div class="copyright">
-					<div class="social-hubs">
+					<section class="social">
 						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
+							<li><a href="#" target="_blank"><img src="images/facebook.png" width="16" height="16"/></a></li>
+							<li><a href="#" target="_blank"><img src="images/googleplus.png" width="16" height="16"/></a></li>
+							<li><a href="#" target="_blank"><img src="images/linkedin.png" width="16" height="16"/></a></li>
+							<li><a href="#" target="_blank"><img src="images/twitter.png" width="16" height="16"/></a></li>
+							<li><a href="#" target="_blank"><img src="images/flickr.png" width="16" height="16"/></a></li>
+							<li><a href="#" target="_blank"><img src="images/picasa.png" width="16" height="16"/></a></li>
+							<li><a href="#" target="_blank"><img src="images/youtube.png" width="16" height="16"/></a></li>
+							<li><a href="#" target="_blank"><img src="images/rss.png" width="16" height="16"/></a></li>
 						</ul>
-					</div>
-					<p class="goldentech">طراحی و پیاده سازی توسط <a href="http://www.goldentech.org" title="">فناوری طلایی</a></p>
+					</section>
+					<p>copyright 2012 sirous bijanfar</p>
 				</div>
 			</footer>
 		</div>
