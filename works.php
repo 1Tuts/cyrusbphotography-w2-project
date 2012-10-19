@@ -5,11 +5,11 @@
 	<link rel="stylesheet" href="reset.css" />
 	<link rel="stylesheet" href="style.css" />
 	<link rel="stylesheet" href="css/lightbox.css" />
-	<script src="js/jquery-1.7.2.min.js"></script>
-	<script src="js/lightbox.js"></script>
 	<script type="text/javascript" src="zepto.min.js"></script>
 	<script type="text/javascript" src="back-slide.js"></script>
 	<script type="text/javascript" src="scripts.js"></script>
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/lightbox.js"></script>
 	<title>Some Works ...</title>
 </head>
 <body>
