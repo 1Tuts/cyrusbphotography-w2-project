@@ -68,6 +68,7 @@
 						متولد سال ۱۳۶۰ در مشهد.تحصیلات دانشگاهی در رشته عکاسی از دانشگاه تهران.
 					</p>
 				</section>
+				<div class="clear"></div>
 				<footer class="footer">
 					<div class="boxes">
 						<div class="box">

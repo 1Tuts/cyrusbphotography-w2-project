@@ -69,6 +69,7 @@
 					</ul>
 				</div>
 			</div>
+			<div class="clear"></div>
 			<footer class="footer">
 				<div class="boxes">
 					<div class="box">
