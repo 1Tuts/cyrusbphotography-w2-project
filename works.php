@@ -63,7 +63,7 @@
 								<a href="images/work-big.jpg">عنوان عکس</a>							
 							</h3>
 							<div class="image-holder">
-								<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
+								<a rel="lightbox" class="gallery-image" href="images/work-big.jpg" title="نمونه ای از کارها"> <!--link to big image-->
 									<img src="images/works/1.png" width="320" height="220"/>
 								</a>
 							</div>
@@ -77,22 +77,7 @@
 								<a href="images/work-big.jpg">عنوان عکس</a>							
 							</h3>
 							<div class="image-holder">
-								<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
-									<img src="images/works/1.png" width="320" height="220"/>
-								</a>
-							</div>
-							<p class="image-description">
-								توضیحاتی درباره تصویر
-							</p>
-							<a class="more">اطلاعات بیشتر</a>
-							<div class="clear"></div>
-						</li>
-						<li>
-							<h3>
-								<a href="images/work-big.jpg">عنوان عکس</a>							
-							</h3>
-							<div class="image-holder">
-								<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
+								<a rel="lightbox" class="gallery-image" href="images/work-big.jpg" title="نمونه ای از کارها"> <!--link to big image-->
 									<img src="images/works/1.png" width="320" height="220"/>
 								</a>
 							</div>
@@ -106,7 +91,49 @@
 								<a href="images/work-big.jpg">عنوان عکس</a>							
 							</h3>
 							<div class="image-holder">
-								<a class="gallery-image" href="images/work-big.jpg"> <!--link to big image-->
+								<a rel="lightbox" class="gallery-image" href="images/work-big.jpg" title="نمونه ای از کارها"> <!--link to big image-->
+									<img src="images/works/1.png" width="320" height="220"/>
+								</a>
+							</div>
+							<p class="image-description">
+								توضیحاتی درباره تصویر
+							</p>
+							<a class="more">اطلاعات بیشتر</a>
+						</li>
+						<li>
+							<h3>
+								<a href="images/work-big.jpg">عنوان عکس</a>							
+							</h3>
+							<div class="image-holder">
+								<a rel="lightbox" class="gallery-image" href="images/work-big.jpg" title="نمونه ای از کارها"> <!--link to big image-->
+									<img src="images/works/1.png" width="320" height="220"/>
+								</a>
+							</div>
+							<p class="image-description">
+								توضیحاتی درباره تصویر
+							</p>
+							<a class="more">اطلاعات بیشتر</a>
+						</li>
+						<li>
+							<h3>
+								<a href="images/work-big.jpg">عنوان عکس</a>							
+							</h3>
+							<div class="image-holder">
+								<a rel="lightbox" class="gallery-image" href="images/work-big.jpg" title="نمونه ای از کارها"> <!--link to big image-->
+									<img src="images/works/1.png" width="320" height="220"/>
+								</a>
+							</div>
+							<p class="image-description">
+								توضیحاتی درباره تصویر
+							</p>
+							<a class="more">اطلاعات بیشتر</a>
+						</li>
+						<li>
+							<h3>
+								<a href="images/work-big.jpg">عنوان عکس</a>							
+							</h3>
+							<div class="image-holder">
+								<a rel="lightbox" class="gallery-image" href="images/work-big.jpg" title="نمونه ای از کارها"> <!--link to big image-->
 									<img src="images/works/1.png" width="320" height="220"/>
 								</a>
 							</div>
