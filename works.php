@@ -60,11 +60,11 @@
 					<ul>
 						<li>
 							<h3>
-								<a href="images/work-big.jpg">عنوان عکس</a>							
+								<a href="images/works/2.jpg">عنوان عکس</a>							
 							</h3>
 							<div class="image-holder">
-								<a rel="lightbox" class="gallery-image" href="images/work-big.jpg" title="نمونه ای از کارها"> <!--link to big image-->
-									<img src="images/works/1.png" width="320" height="220"/>
+								<a rel="lightbox" class="gallery-image" href="images/works/2.jpg" title="نمونه ای از کارها"> <!--link to big image-->
+									<img src="images/works/1.jpg" width="320" height="220"/>
 								</a>
 							</div>
 							<p class="image-description">
@@ -74,11 +74,11 @@
 						</li>
 						<li>
 							<h3>
-								<a href="images/work-big.jpg">عنوان عکس</a>							
+								<a href="images/works/2.jpg">عنوان عکس</a>							
 							</h3>
 							<div class="image-holder">
-								<a rel="lightbox" class="gallery-image" href="images/work-big.jpg" title="نمونه ای از کارها"> <!--link to big image-->
-									<img src="images/works/1.png" width="320" height="220"/>
+								<a rel="lightbox" class="gallery-image" href="images/works/2.jpg" title="نمونه ای از کارها"> <!--link to big image-->
+									<img src="images/works/1.jpg" width="320" height="220"/>
 								</a>
 							</div>
 							<p class="image-description">
@@ -88,11 +88,11 @@
 						</li>
 						<li>
 							<h3>
-								<a href="images/work-big.jpg">عنوان عکس</a>							
+								<a href="images/works/2.jpg">عنوان عکس</a>							
 							</h3>
 							<div class="image-holder">
-								<a rel="lightbox" class="gallery-image" href="images/work-big.jpg" title="نمونه ای از کارها"> <!--link to big image-->
-									<img src="images/works/1.png" width="320" height="220"/>
+								<a rel="lightbox" class="gallery-image" href="images/works/2.jpg" title="نمونه ای از کارها"> <!--link to big image-->
+									<img src="images/works/1.jpg" width="320" height="220"/>
 								</a>
 							</div>
 							<p class="image-description">
@@ -102,11 +102,11 @@
 						</li>
 						<li>
 							<h3>
-								<a href="images/work-big.jpg">عنوان عکس</a>							
+								<a href="images/works/2.jpg">عنوان عکس</a>							
 							</h3>
 							<div class="image-holder">
-								<a rel="lightbox" class="gallery-image" href="images/work-big.jpg" title="نمونه ای از کارها"> <!--link to big image-->
-									<img src="images/works/1.png" width="320" height="220"/>
+								<a rel="lightbox" class="gallery-image" href="images/works/2.jpg" title="نمونه ای از کارها"> <!--link to big image-->
+									<img src="images/works/1.jpg" width="320" height="220"/>
 								</a>
 							</div>
 							<p class="image-description">
@@ -116,11 +116,11 @@
 						</li>
 						<li>
 							<h3>
-								<a href="images/work-big.jpg">عنوان عکس</a>							
+								<a href="images/works/2.jpg">عنوان عکس</a>							
 							</h3>
 							<div class="image-holder">
-								<a rel="lightbox" class="gallery-image" href="images/work-big.jpg" title="نمونه ای از کارها"> <!--link to big image-->
-									<img src="images/works/1.png" width="320" height="220"/>
+								<a rel="lightbox" class="gallery-image" href="images/works/2.jpg" title="نمونه ای از کارها"> <!--link to big image-->
+									<img src="images/works/1.jpg" width="320" height="220"/>
 								</a>
 							</div>
 							<p class="image-description">
@@ -130,11 +130,11 @@
 						</li>
 						<li>
 							<h3>
-								<a href="images/work-big.jpg">عنوان عکس</a>							
+								<a href="images/works/2.jpg">عنوان عکس</a>							
 							</h3>
 							<div class="image-holder">
-								<a rel="lightbox" class="gallery-image" href="images/work-big.jpg" title="نمونه ای از کارها"> <!--link to big image-->
-									<img src="images/works/1.png" width="320" height="220"/>
+								<a rel="lightbox" class="gallery-image" href="images/works/2.jpg" title="نمونه ای از کارها"> <!--link to big image-->
+									<img src="images/works/1.jpg" width="320" height="220"/>
 								</a>
 							</div>
 							<p class="image-description">
@@ -145,6 +145,7 @@
 					</ul>
 				</div>
 			</div>
+			<div class="clear"></div>
 			<footer class="footer">
 				<div class="boxes">
 					<div class="box">
