@@ -18,7 +18,7 @@
   z-index: 10000;
   text-align: center;
   line-height: 0;
-  font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+  font-family: tahoma, verdana, arial, sans-serif;
   font-weight: normal;
 }
 /* line 24, ../sass/lightbox.sass */
@@ -151,14 +151,14 @@
 /* line 98, ../sass/lightbox.sass */
 .lb-data .lb-details {
   width: 85%;
-  float: left;
-  text-align: left;
+  float: right;
+  text-align: right;
   line-height: 1.1em;
 }
 /* line 103, ../sass/lightbox.sass */
 .lb-data .lb-caption {
-  font-size: 13px;
-  font-weight: bold;
+  font-size: 12px;
+  font-weight: normal;
   line-height: 1em;
 }
 /* line 107, ../sass/lightbox.sass */
@@ -171,7 +171,7 @@
 /* line 112, ../sass/lightbox.sass */
 .lb-data .lb-close {
   width: 35px;
-  float: right;
+  float: left;
   padding-bottom: 0.7em;
   outline: none;
 }
