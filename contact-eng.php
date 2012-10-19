@@ -7,7 +7,7 @@
 	<script type="text/javascript" src="zepto.min.js"></script>
 	<script type="text/javascript" src="back-slide.js"></script>
 	<script type="text/javascript" src="scripts.js"></script>
-	<title>Contact me!</title>
+	<title>تماس</title>
 </head>
 <body>
 	<div class="back-slide">

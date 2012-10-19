@@ -10,7 +10,7 @@
 	<script type="text/javascript" src="scripts.js"></script>
 	<script src="js/jquery-1.7.2.min.js"></script>
 	<script src="js/lightbox.js"></script>
-	<title>Some Works ...</title>
+	<title>کارها</title>
 </head>
 <body>
 	<div class="back-slide">
