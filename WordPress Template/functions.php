@@ -2,4 +2,4 @@
 
 	add_theme_support('menus');
 
-	register_nav_menu('sidebar menu','Main Menu');
+	register_nav_menu('sidebarmenu','Main Menu');
