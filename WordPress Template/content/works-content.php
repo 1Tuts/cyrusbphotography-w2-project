@@ -10,6 +10,17 @@
 				<div class="gallery">
 					<p><?php the_content(); ?></p>
 					<ul>
-						
-				</ul>
+						 <?php
+
+							$gallery_attachment=array(
+								'numberposts' => '-1',
+								'orderby '=> 'menu_order',  
+								'order'=> 'ASC',  
+								'post_mime_type' => 'image', 
+								'post_parent' => $postID, 
+								'post_status' => null, 
+								'post_type' => 'attachment'
+							);
+						?>
+					</ul>
 			</div>
