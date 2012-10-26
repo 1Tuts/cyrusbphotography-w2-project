@@ -1,0 +1,429 @@
+*{
+	/*outline: 1px solid red;*/
+}
+
+.clear {
+	clear      : both;
+	width      : 0 !important;
+	height     : 0 !important;
+	min-height : 0 !important;
+	min-width  : 0 !important;
+	margin     : 0 !important;
+	padding    : 0 !important;
+	float      : none !important;
+	border     : 0 none !important;
+	overflow   : hidden;	
+}
+
+div.back-slide {
+	position : fixed;
+	top      : 0;
+	right    : 0;
+	left     : 0;
+	bottom   : 0;
+	z-index  : -2;
+}
+
+div.back-slide > div {
+	position : fixed;
+	top      : 0;
+	left     : 0;
+	right    : 0;
+	bottom   : 0;
+	z-index  : -2;
+	background-position : center center;
+	background-repeat   : no-repeat;
+	background-size     : cover;
+}
+
+div.container {
+	width : 1000px;
+	margin: 0 auto;
+	min-height: 550px;
+}
+
+aside.sidebar {
+	position: fixed;
+	top:0px;
+}
+
+aside.sidebar header {
+	width      : 240px;
+	margin     : 0 auto;
+	background : url('images/menu_back.png') repeat-y;
+	background-position: center;
+}
+
+aside.sidebar header hgroup {
+	width : 200px;
+	margin: 0 auto;
+}
+
+aside.sidebar header hgroup h1.logo {
+	height  : 124px;
+	text-align: center;
+}
+
+aside.sidebar header hgroup h1.logo img {
+}
+
+aside.sidebar header hgroup h1.slogan{
+	min-height: 80px;
+}
+
+aside.sidebar header nav {
+
+}
+
+aside.sidebar header nav menu{
+	margin-right : 20px;
+	width       : 200px;
+	margin      : 0 auto;
+}
+
+aside.sidebar header nav menu li {
+	width         : 180px;
+	margin        : 0 auto;	
+	min-height    : 30px;
+	border-top    : 1px solid #343434;
+	padding-right : 0 6px;
+}
+
+aside.sidebar header nav menu li:last-child {
+	border-bottom : 1px solid #343434;
+}
+
+aside.sidebar header nav menu li a {
+	display         : block;
+	padding         : 6px 5px 10px 25px;
+	color           : #a3a3a3;
+	text-decoration : none;
+	font-family     : tahoma, "Helvetica Neue", Verdana, Helvetica, sans-serif;
+	text-transform  : uppercase;
+	line-height     : 20px;
+}
+
+aside.sidebar header nav menu li a span {
+	font-size  : 10px;
+	color      : #555;
+	font-style : italic;
+}
+
+#hide-sidebar {
+	width            : 240px;
+	height           : 130px;
+	margin           : 0 auto;
+	background-image : url('images/hide_menu_back.png');
+}
+
+#hide-sidebar a.click-hide {
+	display    : block;
+	margin-top : 20px;
+	width      : 48px;
+	height     : 48px;
+	margin     : 0 auto;
+}
+
+div.content-container{
+	background-image   : url('images/content_back.png');
+	margin-right       : 250px;
+	padding            : 24px 25px 5px 25px;
+	background-repeat  : repeat-y;
+	background-position: center;
+}
+
+div.content {
+	padding-bottom : 15px;
+}
+
+/********************************** WORKS *****************************************/
+
+div.content h1.title {
+	font-family   : Tahoma;
+	font-size     : 18px;
+	font-weight   : bold;
+	text-transform: uppercase;
+	margin        : 0 0 40px 0;
+	color         : white; 
+}
+
+div.content div.gallery {
+	min-height : 1000px;
+}
+
+div.content div.gallery ul li {
+	float      : right;
+	width      : 320px;
+	min-height : 300px;
+	margin     : 0 20px 40px 0; 
+	padding    : 30px 0 15px 0;
+}
+
+div.content div.gallery ul li h3 {
+	margin-bottom : 20px;
+}
+
+div.content div.gallery ul li h3 a {
+	font-family     : inherit;
+	font-size       : 14px;
+	font-weight     : normal;
+	color           : white;
+	text-decoration : none;
+}
+
+div.content div.gallery ul li div.image-holder {
+	background-image : url('images/works/0.jpg');
+}
+
+div.content div.gallery ul li div.image-holder a.gallery-image{
+	cursor            : auto;
+	width             : 320px;
+	height            : 220px;
+	opacity           : 1;
+	-webkit-transition: all 1s;
+	-ms-transition    : all 1s;
+	-o-transition     : all 1s;
+	-moz-transition   : all 1s;
+}
+
+div.content div.gallery ul li div.image-holder:hover a.gallery-image{
+	opacity           : 0.7;
+	-webkit-transition: all 1s;
+	-ms-transition    : all 1s;
+	-o-transition     : all 1s;
+	-moz-transition   : all 1s;
+}
+
+div.content div.gallery ul li p.image-description{
+	color      : #fff;
+	font-family: inherit;
+	font-size  : 10px;
+	line-height: 1.2;
+	margin     : 10px 0;
+}
+
+div.content div.gallery ul li a.more{
+	-moz-border-radius   : 3px;
+	-webkit-border-radius: 3px;
+	border-radius        : 3px;
+	border               : 1px solid #2C2C2C;
+	background-color     : #111;
+	text-align           : center;
+	font-size            : 11px;
+	padding              : 5px 3px;
+	width                : 80px;
+	color                : #fff;
+	text-decoration      : none;
+	cursor               : pointer;
+}
+
+div.content div.gallery ul li a.more:hover{
+	background-color : #2C2C2C;
+}
+
+/*********************** CONTACT PAGE ****************************/
+
+div.content form#contact {
+	float : right;
+	width : 360px;
+}
+
+div.content form#contact input.text {
+	width : 200px;
+}
+
+div.content form#contact input.button {
+	width      : 150px;
+	height     : 30px;
+	color      : white;
+	text-align : center;	
+	background : -webkit-gradient(linear, left top, left bottom, from(#424242), to(#282828));
+}
+
+div.content form#contact input.button:hover {
+	background : -webkit-gradient(linear, left top, left bottom, from(#282828), to(#424242));
+
+}
+
+div.content form#contact input,div.content form#contact textarea {
+	display       : block;
+	border        : 1px solid #333;
+	padding       : 5px 5px;
+	font-size     : 12px;
+	margin-bottom : 15px;
+	font-weight   : bold;
+	color         : #ddd;
+	background-color      : #1b1b1b;
+	-webkit-border-radius : 3px;
+}
+
+div.content form#contact input:focus::-webkit-input-placeholder{
+	color             : transparent;
+	-webkit-transition: all 400ms;
+}
+ 
+div.content form#contact textarea:focus::-webkit-input-placeholder{
+	color             : transparent;
+	-webkit-transition: all 300ms;
+}
+
+div.content div.contact-info {
+	margin-right: 500px;
+	min-height  : 500px;
+}
+
+div.content div.contact-info h3 {
+	color          : white;
+	padding-bottom : 20px;
+}
+
+div.content div.contact-info ul li {
+	color               : #ccc;
+	padding             : 7px 20px 7px 0;
+	border-top          : 1px solid #2b2b2b;
+	background-position : center right;
+	background-repeat   : no-repeat;
+}
+
+div.content div.contact-info ul li.tell {
+	background-image : url('images/tell.png');
+}
+
+div.content div.contact-info ul li.mail {
+	background-image : url('images/email.png');
+}
+
+div.content div.contact-info ul li.address {
+	background-image : url('images/house.png');
+}
+
+/*************************  BIOGRAPHY  *****************************/
+
+h1.cyrus {
+	font-size     : 16px;
+	font-weight   : bold;
+	color         : white;
+	margin-bottom : 20px;
+}
+
+section.biography{
+	margin-bottom : 100px;
+}
+
+section.biography p{
+	font-size     : 12px;
+	font-family   : inherit;
+	color         : #eee;
+	margin-bottom : 10px;
+}
+
+/************************* footer ************************************/
+footer.footer{
+}
+
+footer.footer div.boxes{
+	border-top   : 1px solid #555;
+	border-bottom: 1px solid #555;
+}
+
+footer.footer div.boxes div.box{
+	float  : right;
+	width  : 199px;
+	padding: 40px 17px;
+}
+
+footer.footer div.box h3{
+	font-family     : inherit;
+	font-size       : 13px;
+	font-weight     : bold;
+	color           : #ddd;
+	text-decoration : none;
+	padding-bottom  : 15px;
+	border-bottom   : 1px solid #444;
+}
+
+footer.footer div.box ul li a{
+	padding         : 8px 7px 8px 0;
+	font-family     : inherit;
+	font-size       : 13px;
+	text-decoration : none;
+	color           : #ddd;
+	border-bottom   : 1px solid #444;
+}
+
+footer.footer div.box ul li:hover a{
+	background-color : #333;
+}
+
+footer.footer div.copyright{
+	padding : 23px 17px;
+}
+
+footer.footer div.copyright section.social{
+	float : right;
+}
+
+footer.footer div.copyright section.social ul li{
+	width      : 16px;
+	height     : 16px;
+	float      : right;
+	margin-left:12px;
+}
+
+footer.footer div.copyright section.social ul li a{
+	width  : 16px;
+	height : 16px;
+}
+
+footer.footer div.copyright p{
+	margin-right   : 503px;
+	font-family    : inherit;
+	font-size      : 12px;
+	color          : white;
+	text-transform : capitalize;
+}
+
+/***************************  BLOG  *****************************/
+div.post {
+	margin-bottom: 30px;
+}
+
+div.post h2.post-title {
+	font-family   : Tahoma;
+	font-size     : 15px;
+	font-weight   : bold;
+	text-transform: uppercase;
+	padding: 0 0 15px 0;
+	color         : white; 
+	border-bottom: 1px solid #444;
+	
+}
+
+div.post div.post-time {
+	padding-right: 10px;
+	border-bottom: 1px solid #444;
+	margin-bottom      : 15px;
+}
+
+div.post div.post-time p {
+	color              : #ccc;
+	padding            : 8px 20px 8px 0;
+	font-size          : 13px;
+	padding-right      : 20px;
+	background-image   : url('images/calendar.png');
+	background-repeat  : no-repeat;
+	background-position: center right;
+}
+
+div.post-content img {
+	display       : block;
+	margin-bottom : 25px;
+}
+
+div.post-content p.post {
+	font-family : Tahoma;
+	font-size   : 13px;
+	color       : #aaa;
+	line-height : 20px;
+	text-indent : 30px;
+}
