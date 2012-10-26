@@ -1,4 +1,4 @@
-				</div>
+
 				<footer class="footer">
 					<div class="boxes">
 						<div class="box">
@@ -43,6 +43,7 @@
 						<p>copyright 2012 sirous bijanfar</p>
 					</div>
 				</footer>
+				</div>
 			</div>
 		</div>
 </body>
