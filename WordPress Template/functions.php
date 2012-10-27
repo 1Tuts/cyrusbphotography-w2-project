@@ -17,6 +17,23 @@
 			'parent_item_colon' => '',
 			'menu_name' => 'وبلاگ'
 		);
+		
+			$args = array(
+			'labels' => $labels,
+			'public' => true,
+			'publicly_queryable' => true,
+			'show_ui' => true,
+			'show_in_menu' => true,
+			'query_var' => true,
+			'rewrite' => true,
+			'capability_type' => 'post',
+			'has_archive' => true,
+			'hierarchical' => false,
+			'menu_position' => 2,
+			'menu_icon' => get_bloginfo('template_url') . '/images/post-icon.png',
+			'supports' => array('title','editor','thumbnail','excerpt','comments'),
+			'taxonomies' => array('category', 'post_tag')
+		);
 	}
 
 	register_nav_menu('sidebar menu','Main Menu');
