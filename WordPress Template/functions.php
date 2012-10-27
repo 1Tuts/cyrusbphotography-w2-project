@@ -1,9 +1,9 @@
 <?php
 
-	add_theme_support('menus');
-	add_action('init','post_init');
-	function blog_init(){
-		$labels = array(
+add_theme_support('menus');
+add_action('init','post_init');
+function blog_init(){
+	$labels = array(
 		'name' => _x('وبلاگ','post type general name'),
 		'singular_name' => _x('پست','post type singular name'),
 		'add new' => _x('افزودن' , 'بلاگ'),
@@ -18,7 +18,7 @@
 		'menu_name' => 'وبلاگ'
 	);
 	
-		$args = array(
+	$args = array(
 		'labels' => $labels,
 		'public' => true,
 		'publicly_queryable' => true,
@@ -34,6 +34,6 @@
 		'supports' => array('title','editor','thumbnail','excerpt','comments'),
 		'taxonomies' => array('category', 'post_tag')
 	);
-	}
 	
 	register_post_type('news' , $args);
+}
