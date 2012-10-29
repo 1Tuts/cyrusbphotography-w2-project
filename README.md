@@ -16,11 +16,11 @@ The website for the **Sirous ( Cyrus ) Bijanfar ** photography studio.
 * [HTML5](http://ali.md/wiki/html5)
 * [CSS3](http://ali.md/css3ref)
 * [1Styles](http://ali.md/1styles)
-* [JavaScript]
-* [zepto]
-* [PHP]
-* [MySQL]
-* [Wordpress as a CMS]
+* [JavaScript](http://ali.md/wiki/javascript)
+* [jQuery.js](http://ali.md/jquery.js)
+* [zepto.js](http://zeptojs.com/)
+* [PHP](http://ali.md/php/)
+* [MySQL](http://ali.md/wiki/mysql)
 
 
 ###The Team
