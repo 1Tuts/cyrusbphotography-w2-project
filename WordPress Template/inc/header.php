@@ -10,6 +10,17 @@
 	<title>CyrusB-Photography</title>
 </head>
 <body>
+	<div class="back-slide">
+		<?php
+		$meta = get_post_custom();
+			if(count($meta['img'])>0){
+				foreach ($meta['img'] as $img_id) {
+					$img_larg = wp_get_attachment_image_src($img_id,'full'); // array
+					echo "<div style=\"background-image : url('$img_larg[0]');\"></div>";// $img_larg[0] -> image url
+				}
+			}
+		?>		
+	</div>
 	<div class="container">
 		<aside class="sidebar">
 			<header>
