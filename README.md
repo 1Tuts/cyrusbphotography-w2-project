@@ -1,4 +1,4 @@
-##Cyrus Bijanfar Photography website : CyrusB-Photography.ir
+##Cyrus Bijanfar Photography website : Cyrus.Bijanfar.ir
 The website for the **Sirous ( Cyrus ) Bijanfar ** photography studio.
 
 
@@ -32,8 +32,8 @@ The website for the **Sirous ( Cyrus ) Bijanfar ** photography studio.
 ###Our Desire Design Is : http://www.kingsizetheme.com
 
 ### All rights reserved ###
-Please note that CyrusB-Photography.ir is a curated site and that we reserve the right to refuse any listing for any reason.
+Please note that Cyrus.Bijanfar.ir is a curated site and that we reserve the right to refuse any listing for any reason.
 
-The [CyrusB-Photography.ir](http://CyrusB-Photography.ir) code and website is released under a MIT License.
+The [Cyrus.Bijanfar.ir](http://Cyrus.Bijanfar.ir) code and website is released under a MIT License.
 
 Produced by 1schools students network (autumn 2012)
