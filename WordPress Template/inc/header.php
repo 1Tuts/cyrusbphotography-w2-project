@@ -41,6 +41,7 @@
 								'link_before'     => '',
 								'link_after'      => '<br /><span>درباره هر منو</span>',
 								'items_wrap'      => '<menu>%3$s</menu>'
+								'walker' => $walker
 							));
 						?>
 					</menu>
