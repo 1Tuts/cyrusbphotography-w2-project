@@ -8,33 +8,49 @@
 				?>
 				<h1 class="title"><?php the_title(); ?></h1>
 				<div class="gallery">
-					<p><?php the_content(); ?></p>
+					
 					<ul>
 						 <?php
 
-							$gallery_attachment=array(
+							$gall_attach= array(
 								'numberposts' => '-1',
 								'orderby '=> 'menu_order',  
 								'order'=> 'ASC',  
 								'post_mime_type' => 'image', 
-								'post_parent' => $postID, 
+								'post_parent' => $post->ID, 
 								'post_status' => null, 
 								'post_type' => 'attachment'
 							);
 
-							$images = get_children($gallery_attachment);
-							if($images){
+							$images= get_children($gall_attach);
+
+							if ($images){
+
 								foreach ($images as $img) {
-									$img_middle = wp_get_attachment_image_src($img->ID,'middel');
-									$img_larg = wp_get_attachment_image_src($img->ID,'large');
+									$img_med= wp_get_attachment_image($img->ID,'medium');
+									$img_larg= wp_get_attachment_image_src($img->ID,'large');
 
-									echo "<li>";	
+									echo "<li>";
+										
+										echo "<a rel='lightbox' href=\"$img_larg[0]\"> $img_med </a>";
 
-									echo '<a rel="lightbox" class="gallery-image" href="$img_larg[0]" title="نمونه ای از کارها">$img_middle[0]</a>';
-									echo "</li>";	
+										echo "<p class='image-description'> $img->post_content </p>";
+										echo "<a class='more'>اطلاعات بیشتر</a>";
+									
+									echo "</li>";
 								}
-							}else echo '<p id="no-image">متاسفانه تصویری وجود ندارد برای افزودن تصویر میتوانید از پنل ادمین استفاده کنید.</p>';
+								echo "<div class='clear'></div>";
 
+								
+
+							}
+							else 
+								echo "<p class='no-image'>تصویری یافت نشد</p>";
+							
 						?>
 					</ul>
 			</div>
+		<?php
+			}
+		?>
+	</div>
